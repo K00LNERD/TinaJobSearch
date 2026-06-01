@@ -1,0 +1,419 @@
+{
+    "candidate": {
+        "name": "Tina Jain",
+        "email": "jaintina2001@gmail.com",
+        "phone": "+91 9201556679",
+        "linkedin": "https://www.linkedin.com/in/tinajain2001/",
+        "summary": "Product-focused professional with a strong analytical and creative foundation, experienced in developing data-backed product strategies. PGDM (Marketing) graduate from Great Lakes Institute of Management, Chennai (2026) and Bronze Medalist BBA graduate from O.P. Jindal University. Open to entry-level / associate roles in Product, Growth, Marketing, and Consulting.",
+        "skills": [
+            "Product Management",
+            "Data-driven Decision Making",
+            "Competitive Benchmarking",
+            "Customer Journey Mapping",
+            "User Experience (UX) Auditing",
+            "Go-to-market (GTM) Strategy",
+            "Market Research & Consumer Psychology",
+            "Cross-functional Collaboration",
+            "Stakeholder Management",
+            "B2B LinkedIn Outreach & Sales Navigator",
+            "SEO & Digital Marketing",
+            "Marketing Analytics"
+        ],
+        "top_roles": [
+            "Product Marketing Manager (PMM)",
+            "Associate Product Manager (APM)",
+            "Product Analyst",
+            "Growth Marketing Manager / Associate",
+            "Growth Strategy Associate",
+            "Market Research / Consumer Insights Analyst",
+            "Assistant Brand Manager",
+            "Strategy / Consulting Analyst"
+        ],
+        "education": [
+            {
+                "degree": "PGDM (Marketing)",
+                "institution": "Great Lakes Institute of Management, Chennai",
+                "year": "2026",
+                "highlights": "Member of Placement Committee (B2B outreach, operations, data analysis), Consulting Club, Marketing Club. Participated in L'Oreal Sustainability Challenge & Colgate Transcend."
+            },
+            {
+                "degree": "BBA (Marketing)",
+                "institution": "O. P. Jindal University",
+                "year": "2023",
+                "highlights": "Bronze Medal for Academic Excellence, Jindal Scholarship. Placement Coordinator, Co-Convenor of Logistics (managed 15 teams & 14 events)."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Product Innovation Manager",
+                "company": "Tagit Pte Ltd (India)",
+                "duration": "Jan 2025 - Jun 2025",
+                "achievements": [
+                    "Benchmarked 500+ global platforms across 10+ markets, prioritizing 100+ differentiating product capabilities.",
+                    "Developed 8 target personas & 4 six-month journey maps, converting consumer insights into segment engagement strategies.",
+                    "Assessed UX across 100+ consumer apps, recommending enhancements to strengthen CSAT/NPS outcomes.",
+                    "Partnered with C-suite and cross-functional teams to deliver 8+ value propositions & product positioning.",
+                    "Analyzed CAC and 10+ GTM models, delivering 20+ executive reports & 18 market-aligned use-cases."
+                ]
+            },
+            {
+                "role": "Sales and Marketing Intern",
+                "company": "Pepperfry Pvt Ltd",
+                "duration": "Aug 2022 - Oct 2022",
+                "achievements": [
+                    "Managed 50+ HNI leads and 200+ customer interactions, driving INR 15L+ in monthly sales.",
+                    "Resolved 50+ customer escalations at flagship stores, optimizing processes and boosting repeat purchases."
+                ]
+            }
+        ]
+    },
+    "jobs": [
+        {
+            "id": "pepperfry_pmm",
+            "title": "Product Marketing Associate",
+            "company": "Pepperfry",
+            "location": "Gurugram / Remote (HQ Mumbai)",
+            "apply_url": "https://www.pepperfry.com/careers.html",
+            "convertibility": 98,
+            "convertibility_reasons": [
+                "Warm lead: Tina is an alum Sales & Marketing Intern with a proven track record (15L+ monthly sales) at Pepperfry.",
+                "High relevance: Combines her Marketing PGDM with her tagit product innovation credentials.",
+                "Direct pipeline: Allows bypassing standard portals to reach former managers."
+            ],
+            "skills_required": [
+                "Go-to-market Strategy",
+                "Consumer Psychology",
+                "Market Research",
+                "B2C Sales & Engagement"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Senior Marketing Manager",
+                    "role": "Marketing Head / Former Reporting Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Manager%20Pepperfry",
+                    "email_format": "first.last@pepperfry.com (or check internal contacts from internship)",
+                    "outreach_linkedin": "Hi Senior, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Product Marketing Associate role at Pepperfry in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the t...",
+                    "outreach_email": "Subject: Former Pepperfry Intern | GLIM Chennai PGDM Graduate interested in Product Marketing Associate\n\nDear Senior Marketing Manager,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I am a former Sales and Marketing Intern at Pepperfry (flagship stores, Aug-Oct 2022). I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026).\n\nDuring my internship at Pepperfry, I managed 50+ HNI leads, resolved customer escalations, and helped drive monthly sales of INR 15L+. Since then, I have built further on my experience, working as a Product Innovation Manager at Tagit Pte Ltd and earning a Professional Diploma in Product Management.\n\nI saw the opening for the Product Marketing Associate role in Gurugram and would love to return to Pepperfry in this capacity. I feel my understanding of Pepperfry's operations, combined with my PGDM and Product Marketing credentials, makes me a strong fit for your team.\n\nI would be deeply grateful for a few minutes to connect or for a referral to the hiring team for this role.\n\nI have attached my resume, and my LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your support and guidance!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "airtel_pmm",
+            "title": "Product Marketing Manager",
+            "company": "Airtel",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-airtel-4409288390?position=20&pageNum=0",
+            "convertibility": 95,
+            "convertibility_reasons": [
+                "Airtel is headquartered in Gurugram, offering robust entry-level programs for PGDM Marketing grads.",
+                "Her competitive benchmarking experience at Tagit maps perfectly to Airtel's high-velocity consumer feature releases.",
+                "Matches top target role #1 (Product Marketing)."
+            ],
+            "skills_required": [
+                "Product Marketing",
+                "GTM Strategy",
+                "Consumer Behaviour",
+                "Competitive Analysis"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Marketing",
+                    "role": "Product Marketing Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Marketing%20Airtel%20Great%20Lakes",
+                    "email_format": "first.last@airtel.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Product Marketing Manager role at Airtel in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Product Marketing Manager at Airtel\n\nDear Great Lakes Alum - Marketing,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Product Marketing Manager position at Airtel in Gurugram, and I am very keen on exploring this opportunity. Given your role as Product Marketing Manager (GLIM Alumni) at Airtel, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Airtel.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Product Marketing Manager role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "airtel_apm",
+            "title": "Associate Product Manager",
+            "company": "Airtel Digital",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-airtel-digital-4373443164?position=1&pageNum=0",
+            "convertibility": 94,
+            "convertibility_reasons": [
+                "Airtel Digital is situated in Gurugram.",
+                "Her 6-month Product Innovation internship at Tagit maps directly to digital product roles.",
+                "Great Lakes Chennai has a very active, senior alumni network at Airtel."
+            ],
+            "skills_required": [
+                "Product Management",
+                "Competitive Benchmarking",
+                "UX Auditing",
+                "Stakeholder Management"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Airtel%20Great%20Lakes",
+                    "email_format": "first.last@airtel.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Associate Product Manager role at Airtel Digital in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Associate Product Manager at Airtel Digital\n\nDear Great Lakes Alum - PM,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Associate Product Manager position at Airtel Digital in Gurugram, and I am very keen on exploring this opportunity. Given your role as Product Manager (GLIM Alumni) at Airtel Digital, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Airtel Digital.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Associate Product Manager role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "indmoney_pa",
+            "title": "Product Analyst",
+            "company": "INDmoney",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-%E2%80%94-clm-at-indmoney-4419890337",
+            "convertibility": 93,
+            "convertibility_reasons": [
+                "INDmoney is headquartered in Gurugram and actively hires entry-level Product Analysts.",
+                "Tina's data forecasting skills and UX analysis of 100+ consumer apps fits INDmoney's transaction-heavy fintech app audits.",
+                "Matches top target role #3 (Product Analyst)."
+            ],
+            "skills_required": [
+                "Data Analysis",
+                "Product Metrics",
+                "UX Auditing",
+                "Consumer Psychology"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Product",
+                    "role": "Product Analyst / Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20INDmoney%20Great%20Lakes",
+                    "email_format": "first.last@indmoney.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Product Analyst role at INDmoney in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Product Analyst at INDmoney\n\nDear Great Lakes Alum - Product,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Product Analyst position at INDmoney in Gurugram, and I am very keen on exploring this opportunity. Given your role as Product Analyst / Manager (GLIM Alumni) at INDmoney, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at INDmoney.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Product Analyst role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "ey_consulting",
+            "title": "Consulting Analyst - Supply Chain & Operations",
+            "company": "EY",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/consultant-business-consulting-pi-ami-cns-bc-supply-chain-operations-gurgaon-at-ey-4417660946",
+            "convertibility": 93,
+            "convertibility_reasons": [
+                "EY Gurugram recruits heavily from Great Lakes Chennai (Class of 26 target).",
+                "Tina was the Co-Convenor of Logistics at university, managing 15 teams and 14 operations events, showing direct domain alignment.",
+                "Matches top target role #10 (Consulting Analyst)."
+            ],
+            "skills_required": [
+                "Consulting",
+                "Logistics Coordination",
+                "Cross-functional Collaboration",
+                "Data-driven Decision Making"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Consultant",
+                    "role": "Consulting Associate (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Consulting%20EY%20Great%20Lakes",
+                    "email_format": "first.last@ey.com / first.m.last@ey.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Consulting Analyst - Supply Chain & Operations role at EY in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn ...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Consulting Analyst - Supply Chain & Operations at EY\n\nDear Great Lakes Alum - Consultant,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Consulting Analyst - Supply Chain & Operations position at EY in Gurugram, and I am very keen on exploring this opportunity. Given your role as Consulting Associate (GLIM Alumni) at EY, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at EY.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Consulting Analyst - Supply Chain & Operations role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "intozi_pmm",
+            "title": "Product Marketing & Growth Lead",
+            "company": "Intozi",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-growth-lead-at-intozi-4398234602",
+            "convertibility": 92,
+            "convertibility_reasons": [
+                "Intozi is a Gurugram-based AI startup hiring entry-level professionals to spearhead lead generation and GTM.",
+                "Her B2B project (YE Stack) achieved rapid conversion using LinkedIn outreach, matching Intozi's B2B target market.",
+                "Matches top target role #4 (Growth Marketing Manager)."
+            ],
+            "skills_required": [
+                "B2B LinkedIn Outreach",
+                "GTM Strategy",
+                "SEO & Digital Marketing",
+                "Growth Hacking"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Growth Recruiter",
+                    "role": "HR Recruiting Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Intozi%20Recruiter%20Gurgaon",
+                    "email_format": "hr@intozi.com",
+                    "outreach_linkedin": "Hi Growth, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Product Marketing & Growth Lead role at Intozi in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the ...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Product Marketing & Growth Lead at Intozi\n\nDear Growth Recruiter,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Product Marketing & Growth Lead position at Intozi in Gurugram, and I am very keen on exploring this opportunity. Given your role as HR Recruiting Lead at Intozi, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Intozi.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Product Marketing & Growth Lead role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "cotecna_brand",
+            "title": "Assistant Brand Manager",
+            "company": "Cotecna",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.linkedin.com/jobs/view/assistant-brand-manager-at-cotecna-4390583149/",
+            "convertibility": 92,
+            "convertibility_reasons": [
+                "Cotecna is expanding operations in NCR and hires fresh Brand Assistants.",
+                "Tina's PGDM Marketing background, certifications in forecasting, and BBA Bronze Medalist status are highly valued.",
+                "Matches top target role #8 (Brand Manager / Assistant Brand Manager)."
+            ],
+            "skills_required": [
+                "Brand Strategy",
+                "Market Research",
+                "Digital Marketing",
+                "Consumer Behaviour"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Marketing",
+                    "role": "Marketing Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Cotecna%20Great%20Lakes",
+                    "email_format": "first.last@cotecna.co.in / first.last@cotecna.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Assistant Brand Manager role at Cotecna in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Assistant Brand Manager at Cotecna\n\nDear Great Lakes Alum - Marketing,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Assistant Brand Manager position at Cotecna in Gurugram, and I am very keen on exploring this opportunity. Given your role as Marketing Manager (GLIM Alumni) at Cotecna, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Cotecna.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Assistant Brand Manager role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "sbnri_pa",
+            "title": "Product Analyst",
+            "company": "SBNRI",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-at-sbnri-4422836094",
+            "convertibility": 91,
+            "convertibility_reasons": [
+                "SBNRI is a Gurgaon fintech startup hiring entry-level analysts.",
+                "Matches her Professional Diploma in Product Management and data-driven decision-making skillset.",
+                "SBNRI focuses on NRI banking products, matching her benchmarking of international platforms at Tagit."
+            ],
+            "skills_required": [
+                "Data Analysis",
+                "Product Metrics",
+                "Competitive Benchmarking",
+                "Go-to-market Strategy"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Product Head / Lead Recruiter",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20SBNRI%20Gurugram",
+                    "email_format": "careers@sbnri.com",
+                    "outreach_linkedin": "Hi Hiring, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Product Analyst role at SBNRI in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Product Analyst at SBNRI\n\nDear Hiring Manager,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Product Analyst position at SBNRI in Gurugram, and I am very keen on exploring this opportunity. Given your role as Product Head / Lead Recruiter at SBNRI, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at SBNRI.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Product Analyst role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "accenture_consultant",
+            "title": "Custom Analytics Strategy Consultant",
+            "company": "Accenture",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/s-c-gn-t-o-i-i-%E2%80%93-custom-analytics-consultant-at-accenture-services-pvt-ltd-4418503644",
+            "convertibility": 91,
+            "convertibility_reasons": [
+                "Accenture is a massive recruiter of Consulting Analysts at GLIM.",
+                "Tina holds an Accenture Virtual Project Management certification (2022) indicating prior domain alignment.",
+                "Perfect fit for target role #10 (Consulting Analyst) & #9 (Strategy Analyst)."
+            ],
+            "skills_required": [
+                "Consulting",
+                "Marketing Analytics",
+                "Data-driven Decision Making",
+                "Competitive Analysis"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Accenture",
+                    "role": "Consulting Associate (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Consulting%20Great%20Lakes%20Gurgaon",
+                    "email_format": "first.last@accenture.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Custom Analytics Strategy Consultant role at Accenture in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn abo...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Custom Analytics Strategy Consultant at Accenture\n\nDear Great Lakes Alum - Accenture,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Custom Analytics Strategy Consultant position at Accenture in Gurugram, and I am very keen on exploring this opportunity. Given your role as Consulting Associate (GLIM Alumni) at Accenture, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Accenture.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Custom Analytics Strategy Consultant role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "aurora_apm",
+            "title": "Associate Product Manager",
+            "company": "Aurora Energy Research",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-aurora-energy-research-4400761802",
+            "convertibility": 90,
+            "convertibility_reasons": [
+                "Aurora Energy has a strong office in Gurgaon and hires fresh MBA/PGDM analysts for product teams.",
+                "Tina's GTM analyses and benchmarking of 500+ global platforms fit Aurora's international SaaS expansion products.",
+                "Matches target role #2 (Associate Product Manager)."
+            ],
+            "skills_required": [
+                "Product Management",
+                "Competitive Benchmarking",
+                "Go-to-market Strategy",
+                "Data Analysis"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Aurora",
+                    "role": "Product Associate (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Aurora%20Energy%20Great%20Lakes%20Gurgaon",
+                    "email_format": "first.last@auroraer.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Associate Product Manager role at Aurora Energy Research in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn a...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Associate Product Manager at Aurora Energy Research\n\nDear Great Lakes Alum - Aurora,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Associate Product Manager position at Aurora Energy Research in Gurugram, and I am very keen on exploring this opportunity. Given your role as Product Associate (GLIM Alumni) at Aurora Energy Research, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Aurora Energy Research.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Associate Product Manager role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "cargill_consultant",
+            "title": "Associate Consultant - Data Analytics",
+            "company": "Cargill",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/associate-consultant-data-analytics-reporting-ag-trading-at-cargill-4417689418",
+            "convertibility": 89,
+            "convertibility_reasons": [
+                "Cargill's trade analytics headquarters is in Gurgaon.",
+                "Entry-level role seeking fresh post-graduates with forecasting and data management qualifications.",
+                "Aligns with her Excel forecasting & Marketing Analytics credentials."
+            ],
+            "skills_required": [
+                "Data Analysis",
+                "Marketing Analytics",
+                "Analytical Forecasting",
+                "Stakeholder Management"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Cargill",
+                    "role": "Analyst / Associate (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Cargill%20Great%20Lakes%20Gurgaon",
+                    "email_format": "first.last@cargill.com",
+                    "outreach_linkedin": "Hi Great, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Associate Consultant - Data Analytics role at Cargill in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn abou...",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Associate Consultant - Data Analytics at Cargill\n\nDear Great Lakes Alum - Cargill,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Associate Consultant - Data Analytics position at Cargill in Gurugram, and I am very keen on exploring this opportunity. Given your role as Analyst / Associate (GLIM Alumni) at Cargill, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Cargill.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Associate Consultant - Data Analytics role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": "taxmann_apm",
+            "title": "Associate Product Manager",
+            "company": "Taxmann",
+            "location": "Noida / Gurugram",
+            "apply_url": "https://in.linkedin.com/jobs/view/taxmann-associate-product-manager-at-taxmann-4365395739",
+            "convertibility": 88,
+            "convertibility_reasons": [
+                "Taxmann hires entry-level APMs in NCR to manage their tax filing digital tools.",
+                "Tina's CRM diploma and customer mapping fits Taxmann's core audience segment optimization needs."
+            ],
+            "skills_required": [
+                "Product Management",
+                "Customer Journey Mapping",
+                "Competitive Benchmarking",
+                "UX Auditing"
+            ],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Recruiter",
+                    "role": "Recruitment Executive",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Taxmann",
+                    "email_format": "recruitment@taxmann.com / hr@taxmann.com",
+                    "outreach_linkedin": "Hi Product, I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. I saw the entry-level Associate Product Manager role at Taxmann in Gurugram. Given my background in benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!",
+                    "outreach_email": "Subject: GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in Associate Product Manager at Taxmann\n\nDear Product Recruiter,\n\nI hope you are doing well.\n\nMy name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). I am reaching out because I saw the active entry-level Associate Product Manager position at Taxmann in Gurugram, and I am very keen on exploring this opportunity. Given your role as Recruitment Executive at Taxmann, I wanted to connect and share my background.\n\nDuring my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n- Mapping customer journeys (developing 8 target personas and 4 journey maps) to optimize engagement.\n- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\nAdditionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at Taxmann.\n\nI would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the Associate Product Manager role if you think my background is a good fit.\n\nI have attached my resume for your convenience. My LinkedIn profile can be found here: https://www.linkedin.com/in/tinajain2001/.\n\nThank you so much for your time and consideration. Looking forward to connecting!\n\nWarm regards,\n\nTina Jain\n+91 9201556679\njaintina2001@gmail.com"
+                }
+            ]
+        }
+    ]
+}

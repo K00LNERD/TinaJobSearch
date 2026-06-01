@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tina Jain - AI Referral & Job Search Agent</title>
+    <meta name="description" content="AI-curated high-convertibility job search dashboard and warm outreach portal for Tina Jain.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar: Candidate Profile -->
+        <aside class="profile-sidebar" id="profileSidebar">
+            <div class="profile-card">
+                <div class="avatar-container">
+                    <div class="profile-avatar">TJ</div>
+                    <div class="status-indicator online"></div>
+                </div>
+                <h1 class="candidate-name" id="candidateName">Tina Jain</h1>
+                <p class="candidate-tagline">PGDM (Marketing) '26 | Former Product Innovation Manager @ Tagit</p>
+                
+                <div class="contact-quick-links">
+                    <a href="mailto:jaintina2001@gmail.com" class="contact-link" id="candidateEmail" title="Email Tina" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tinajain2001/" class="contact-link" id="candidateLinkedin" title="LinkedIn Profile" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+919201556679" class="contact-link" id="candidatePhone" title="Call Tina">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h3>Core Metrics</h3>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <span class="metric-value" id="statTotalJobs">8</span>
+                            <span class="metric-label">Target Jobs</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value" id="statHighConvert">5</span>
+                            <span class="metric-label">High Match (>90%)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-section">
+                    <h3>Best-Fit Roles</h3>
+                    <div id="candidateRoles" style="display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.8rem; color: var(--text-secondary);">
+                        <!-- Roles dynamically loaded -->
+                    </div>
+                </div>
+
+                <div class="nav-section">
+                    <h3>Technical & Core Skills</h3>
+                    <div class="skills-container" id="candidateSkills">
+                        <!-- Skills dynamically loaded -->
+                    </div>
+                </div>
+
+                <div class="nav-section">
+                    <h3>Education</h3>
+                    <div class="education-timeline" id="candidateEducation">
+                        <!-- Education dynamically loaded -->
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <h2>AI Referral & Job Search Agent</h2>
+                    <p class="subtitle">Curated Gurugram job postings & warm outreach channels for Tina Jain</p>
+                </div>
+                <div class="header-right">
+                    <div class="last-updated">
+                        <i class="fa-solid fa-circle-nodes pulse-icon"></i>
+                        <span>Agent Active</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Search & Filters Control Bar -->
+            <section class="controls-bar" id="controlsBar">
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search by job title, company, or skills..." aria-label="Search job postings">
+                </div>
+                <div class="filters-wrapper">
+                    <div class="select-style">
+                        <select id="companyFilter" aria-label="Filter by Company">
+                            <option value="">All Companies</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+                    <div class="select-style">
+                        <select id="scoreFilter" aria-label="Filter by Convertibility">
+                            <option value="">All Scores</option>
+                            <option value="90">Highly Likely (>=90%)</option>
+                            <option value="85">Very Likely (>=85%)</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-secondary" id="resetFiltersBtn" title="Reset Filters">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Jobs Display Grid -->
+            <section class="jobs-section">
+                <div class="section-title-bar">
+                    <h3>Curated Job Opportunities</h3>
+                    <span class="results-count" id="resultsCount">Showing 8 opportunities</span>
+                </div>
+                <div class="jobs-grid" id="jobsGrid">
+                    <!-- Job cards dynamically loaded -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Slide-out Detail Panel (Modal) -->
+        <div class="detail-panel-overlay" id="detailPanelOverlay"></div>
+        <aside class="detail-panel" id="detailPanel" aria-hidden="true">
+            <button class="close-panel-btn" id="closePanelBtn" aria-label="Close details">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="detail-panel-content" id="detailPanelContent">
+                <!-- Detailed content dynamically loaded -->
+            </div>
+        </aside>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
