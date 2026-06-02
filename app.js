@@ -66,6 +66,21 @@ document.addEventListener('DOMContentLoaded', () => {
             ).join('');
         }
         
+        // Live Portal Feeds
+        const portalSearchLinks = document.getElementById('portalSearchLinks');
+        if (portalSearchLinks && appData.portal_search_links) {
+            portalSearchLinks.innerHTML = appData.portal_search_links.map(portal => `
+                <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 10px; padding: 0.6rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                    <span style="font-size: 0.75rem; font-weight: 600; color: #fff; line-height: 1.2;">${portal.role}</span>
+                    <div style="display: flex; gap: 0.3rem;">
+                        <a href="${portal.naukri}" target="_blank" class="btn btn-secondary" style="padding: 0.25rem 0.5rem; font-size: 0.65rem; flex: 1; border-radius: 6px;" title="Search on Naukri">Naukri</a>
+                        <a href="${portal.hirist}" target="_blank" class="btn btn-secondary" style="padding: 0.25rem 0.5rem; font-size: 0.65rem; flex: 1; border-radius: 6px;" title="Search on Hirist">Hirist</a>
+                        <a href="${portal.instahyre}" target="_blank" class="btn btn-secondary" style="padding: 0.25rem 0.5rem; font-size: 0.65rem; flex: 1; border-radius: 6px;" title="Search on Instahyre">Instahyre</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
         // Skills
         candidateSkills.innerHTML = candidate.skills.map(skill => 
             `<span class="skill-tag">${skill}</span>`

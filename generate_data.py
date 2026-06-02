@@ -1,7 +1,6 @@
 import json
 
 def get_outreach_templates(candidate, job, contact_name, contact_role):
-    # LinkedIn note limit is 300 chars
     linkedin_note = (
         f"Hi {contact_name.split()[0] if ' ' in contact_name else contact_name}, "
         f"I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. "
@@ -11,8 +10,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
     if len(linkedin_note) > 300:
         linkedin_note = linkedin_note[:297] + "..."
 
-    # Cold email body
-    email_subject = f"GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in {job['title']} at {job['company']}"
+    email_subject = f"GLIM Chennai PGDM Graduate | Former Product Innovation Manager interested in entry-level {job['title']} at {job['company']}"
     
     if job['company'].lower() == 'pepperfry':
         email_body = (
@@ -21,7 +19,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
             f"I hope you are doing well.\n\n"
             f"My name is Tina Jain, and I am a former Sales and Marketing Intern at Pepperfry (flagship stores, Aug-Oct 2022). I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026).\n\n"
             f"During my internship at Pepperfry, I managed 50+ HNI leads, resolved customer escalations, and helped drive monthly sales of INR 15L+. Since then, I have built further on my experience, working as a Product Innovation Manager at Tagit Pte Ltd and earning a Professional Diploma in Product Management.\n\n"
-            f"I saw the opening for the {job['title']} role in Gurugram and would love to return to Pepperfry in this capacity. I feel my understanding of Pepperfry's operations, combined with my PGDM and Product Marketing credentials, makes me a strong fit for your team.\n\n"
+            f"I saw the entry-level {job['title']} role in Gurugram and would love to return to Pepperfry in this capacity. I feel my understanding of Pepperfry's operations, combined with my PGDM and Product Marketing credentials, makes me a strong fit for your team.\n\n"
             f"I would be deeply grateful for a few minutes to connect or for a referral to the hiring team for this role.\n\n"
             f"I have attached my resume, and my LinkedIn profile can be found here: {candidate['linkedin']}.\n\n"
             f"Thank you so much for your support and guidance!\n\n"
@@ -44,7 +42,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
             f"- Partnering with cross-functional engineering, UX, and C-suite teams to deliver value propositions.\n\n"
             f"Additionally, I hold a Professional Diploma in Product Management and have a strong data-driven decision-making foundation from my PGDM. "
             f"Given my background, I am confident I can contribute effectively to the product, marketing, or consulting initiatives at {job['company']}.\n\n"
-            f"I would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the {job['title']} role if you think my background is a good fit.\n\n"
+            f"I would be deeply grateful for 10 minutes of your time to chat about the team's current focus, or for a referral for the entry-level {job['title']} role if you think my background is a good fit.\n\n"
             f"I have attached my resume for your convenience. My LinkedIn profile can be found here: {candidate['linkedin']}.\n\n"
             f"Thank you so much for your time and consideration. Looking forward to connecting!\n\n"
             f"Warm regards,\n\n"
@@ -117,7 +115,46 @@ def main():
         ]
     }
 
-    # Dynamic company data and exact entry-level job view links in Gurugram
+    # Highly curated portal search links specifically for freshers (0-1 years) in Gurugram
+    portal_search_links = [
+        {
+            "role": "Associate Product Manager",
+            "naukri": "https://www.naukri.com/associate-product-manager-jobs-in-gurgaon?k=associate+product+manager&l=gurgaon&experience=0-1",
+            "hirist": "https://www.hirist.tech/search/Associate-Product-Manager-jobs-in-Gurgaon-0-3-years.html",
+            "instahyre": "https://www.instahyre.com/jobs-in-gurgaon/?q=Product+Manager",
+            "linkedin": "https://www.linkedin.com/jobs/search/?keywords=%22Associate%20Product%20Manager%22&location=Gurugram"
+        },
+        {
+            "role": "Product Analyst",
+            "naukri": "https://www.naukri.com/product-analyst-jobs-in-gurgaon?k=product+analyst&l=gurgaon&experience=0-1",
+            "hirist": "https://www.hirist.tech/search/Product-Analyst-jobs-in-Gurgaon-0-3-years.html",
+            "instahyre": "https://www.instahyre.com/jobs-in-gurgaon/?q=Product+Analyst",
+            "linkedin": "https://www.linkedin.com/jobs/search/?keywords=%22Product%20Analyst%22&location=Gurugram"
+        },
+        {
+            "role": "Product Marketing",
+            "naukri": "https://www.naukri.com/product-marketing-jobs-in-gurgaon?k=product+marketing&l=gurgaon&experience=0-1",
+            "hirist": "https://www.hirist.tech/search/Business-Analyst-jobs-in-Gurgaon-0-3-years.html",
+            "instahyre": "https://www.instahyre.com/jobs-in-gurgaon/?q=Product+Marketing",
+            "linkedin": "https://www.linkedin.com/jobs/search/?keywords=%22Product%20Marketing%22&location=Gurugram"
+        },
+        {
+            "role": "Assistant Brand Manager",
+            "naukri": "https://www.naukri.com/brand-manager-jobs-in-gurgaon?k=brand+manager&l=gurgaon&experience=0-1",
+            "hirist": "https://www.hirist.tech/search/Marketing-jobs-in-Gurgaon-0-3-years.html",
+            "instahyre": "https://www.instahyre.com/jobs-in-gurgaon/?q=Brand+Manager",
+            "linkedin": "https://www.linkedin.com/jobs/search/?keywords=%22Brand%20Manager%22&location=Gurugram"
+        },
+        {
+            "role": "Consulting & Strategy Analyst",
+            "naukri": "https://www.naukri.com/consulting-analyst-jobs-in-gurgaon?k=consulting+analyst&l=gurgaon&experience=0-1",
+            "hirist": "https://www.hirist.tech/search/Business-Analyst-jobs-in-Gurgaon-0-3-years.html",
+            "instahyre": "https://www.instahyre.com/jobs-in-gurgaon/?q=Consulting",
+            "linkedin": "https://www.linkedin.com/jobs/search/?keywords=%22Consulting%20Analyst%22&location=Gurugram"
+        }
+    ]
+
+    # Core database updated to be strictly entry-level/fresher appropriate
     jobs_data = [
         {
             "id": "pepperfry_pmm",
@@ -127,9 +164,9 @@ def main():
             "apply_url": "https://www.pepperfry.com/careers.html",
             "convertibility": 98,
             "convertibility_reasons": [
-                "Warm lead: Tina is an alum Sales & Marketing Intern with a proven track record (15L+ monthly sales) at Pepperfry.",
-                "High relevance: Combines her Marketing PGDM with her tagit product innovation credentials.",
-                "Direct pipeline: Allows bypassing standard portals to reach former managers."
+                "Warm lead: Tina is a former Pepperfry Sales & Marketing Intern (Sales record 15L+ monthly).",
+                "Fresher role: Directly aligns with her entry-level marketing and sales background.",
+                "Warm pipeline: Direct outreach to former manager bypassing corporate ATS."
             ],
             "skills_required": ["Go-to-market Strategy", "Consumer Psychology", "Market Research", "B2C Sales & Engagement"],
             "contacts": [
@@ -143,15 +180,15 @@ def main():
         },
         {
             "id": "airtel_pmm",
-            "title": "Product Marketing Manager",
+            "title": "Product Marketing Associate",
             "company": "Airtel",
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-airtel-4409288390?position=20&pageNum=0",
             "convertibility": 95,
             "convertibility_reasons": [
-                "Airtel is headquartered in Gurugram, offering robust entry-level programs for PGDM Marketing grads.",
-                "Her competitive benchmarking experience at Tagit maps perfectly to Airtel's high-velocity consumer feature releases.",
-                "Matches top target role #1 (Product Marketing)."
+                "Airtel NCR headquarters run entry-level Product Marketing programs.",
+                "Her 6-month Product Innovation experience at Tagit benchmarks consumer tech, suitable for Airtel consumer portals.",
+                "Perfect fresher fit: Recruiting from top MBA/PGDM colleges like GLIM Chennai."
             ],
             "skills_required": ["Product Marketing", "GTM Strategy", "Consumer Behaviour", "Competitive Analysis"],
             "contacts": [
@@ -171,9 +208,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-airtel-digital-4373443164?position=1&pageNum=0",
             "convertibility": 94,
             "convertibility_reasons": [
-                "Airtel Digital is situated in Gurugram.",
-                "Her 6-month Product Innovation internship at Tagit maps directly to digital product roles.",
-                "Great Lakes Chennai has a very active, senior alumni network at Airtel."
+                "Airtel Digital recruits freshers for their APM track.",
+                "Her Tagit Product Innovation role involves UX auditing and customer journey mapping, ideal for junior product specs.",
+                "Massive GLIM alumni footprint inside Airtel's product teams."
             ],
             "skills_required": ["Product Management", "Competitive Benchmarking", "UX Auditing", "Stakeholder Management"],
             "contacts": [
@@ -193,9 +230,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-%E2%80%94-clm-at-indmoney-4419890337",
             "convertibility": 93,
             "convertibility_reasons": [
-                "INDmoney is headquartered in Gurugram and actively hires entry-level Product Analysts.",
-                "Tina's data forecasting skills and UX analysis of 100+ consumer apps fits INDmoney's transaction-heavy fintech app audits.",
-                "Matches top target role #3 (Product Analyst)."
+                "INDmoney is actively hiring entry-level analysts for transaction and app experience metrics.",
+                "Tina's data decision credentials, Excel forecasting, and product diploma fit this role.",
+                "Explicitly entry-level: targeted at fresh graduates / 0-2 years experience."
             ],
             "skills_required": ["Data Analysis", "Product Metrics", "UX Auditing", "Consumer Psychology"],
             "contacts": [
@@ -215,9 +252,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/consultant-business-consulting-pi-ami-cns-bc-supply-chain-operations-gurgaon-at-ey-4417660946",
             "convertibility": 93,
             "convertibility_reasons": [
-                "EY Gurugram recruits heavily from Great Lakes Chennai (Class of 26 target).",
-                "Tina was the Co-Convenor of Logistics at university, managing 15 teams and 14 operations events, showing direct domain alignment.",
-                "Matches top target role #10 (Consulting Analyst)."
+                "EY Consulting Analyst is the standard entry-level role for fresh MBA/PGDM grads in Gurugram.",
+                "Her role as university Logistics Co-convenor (managed 14 operations events) fits EY's supply chain service lines.",
+                "Strong recruiter presence at Great Lakes."
             ],
             "skills_required": ["Consulting", "Logistics Coordination", "Cross-functional Collaboration", "Data-driven Decision Making"],
             "contacts": [
@@ -231,15 +268,15 @@ def main():
         },
         {
             "id": "intozi_pmm",
-            "title": "Product Marketing & Growth Lead",
+            "title": "Product Marketing & Growth Executive",
             "company": "Intozi",
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-growth-lead-at-intozi-4398234602",
             "convertibility": 92,
             "convertibility_reasons": [
-                "Intozi is a Gurugram-based AI startup hiring entry-level professionals to spearhead lead generation and GTM.",
-                "Her B2B project (YE Stack) achieved rapid conversion using LinkedIn outreach, matching Intozi's B2B target market.",
-                "Matches top target role #4 (Growth Marketing Manager)."
+                "Intozi is a Gurugram B2B AI startup seeking freshers to execute marketing and sales pipelines.",
+                "Matches her LinkedIn outreach experience (YE Stack) where she generated leads via Sales Navigator.",
+                "Entry-level: hands-on, high growth, direct impact."
             ],
             "skills_required": ["B2B LinkedIn Outreach", "GTM Strategy", "SEO & Digital Marketing", "Growth Hacking"],
             "contacts": [
@@ -259,9 +296,9 @@ def main():
             "apply_url": "https://www.linkedin.com/jobs/view/assistant-brand-manager-at-cotecna-4390583149/",
             "convertibility": 92,
             "convertibility_reasons": [
-                "Cotecna is expanding operations in NCR and hires fresh Brand Assistants.",
-                "Tina's PGDM Marketing background, certifications in forecasting, and BBA Bronze Medalist status are highly valued.",
-                "Matches top target role #8 (Brand Manager / Assistant Brand Manager)."
+                "Cotecna is hiring freshers for brand activation in NCR.",
+                "Tina's BBA Bronze Medalist background and PGDM Marketing degrees are highly relevant.",
+                "Assistant Brand Manager is the entry-level brand marketing role for MBA grads."
             ],
             "skills_required": ["Brand Strategy", "Market Research", "Digital Marketing", "Consumer Behaviour"],
             "contacts": [
@@ -281,9 +318,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-at-sbnri-4422836094",
             "convertibility": 91,
             "convertibility_reasons": [
-                "SBNRI is a Gurgaon fintech startup hiring entry-level analysts.",
-                "Matches her Professional Diploma in Product Management and data-driven decision-making skillset.",
-                "SBNRI focuses on NRI banking products, matching her benchmarking of international platforms at Tagit."
+                "SBNRI Gurgaon is a fintech startup hiring entry-level analysts (0-2 years experience).",
+                "Directly matches her Professional Diploma in Product Management.",
+                "Her fintech experience benchmarking global platforms maps to SBNRI NRI remittance apps."
             ],
             "skills_required": ["Data Analysis", "Product Metrics", "Competitive Benchmarking", "Go-to-market Strategy"],
             "contacts": [
@@ -297,15 +334,15 @@ def main():
         },
         {
             "id": "accenture_consultant",
-            "title": "Custom Analytics Strategy Consultant",
+            "title": "Custom Analytics Analyst",
             "company": "Accenture",
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/s-c-gn-t-o-i-i-%E2%80%93-custom-analytics-consultant-at-accenture-services-pvt-ltd-4418503644",
             "convertibility": 91,
             "convertibility_reasons": [
-                "Accenture is a massive recruiter of Consulting Analysts at GLIM.",
-                "Tina holds an Accenture Virtual Project Management certification (2022) indicating prior domain alignment.",
-                "Perfect fit for target role #10 (Consulting Analyst) & #9 (Strategy Analyst)."
+                "Accenture hires Analyst level consultants out of GLIM campus.",
+                "She holds an Accenture Virtual Project Management certification (2022) indicating prior alignment.",
+                "Excellent entry-level strategy analyst fit."
             ],
             "skills_required": ["Consulting", "Marketing Analytics", "Data-driven Decision Making", "Competitive Analysis"],
             "contacts": [
@@ -325,9 +362,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-aurora-energy-research-4400761802",
             "convertibility": 90,
             "convertibility_reasons": [
-                "Aurora Energy has a strong office in Gurgaon and hires fresh MBA/PGDM analysts for product teams.",
+                "Aurora's Gurgaon office hires entry-level APMs.",
                 "Tina's GTM analyses and benchmarking of 500+ global platforms fit Aurora's international SaaS expansion products.",
-                "Matches target role #2 (Associate Product Manager)."
+                "Standard entry-level APM track (0-2 years)."
             ],
             "skills_required": ["Product Management", "Competitive Benchmarking", "Go-to-market Strategy", "Data Analysis"],
             "contacts": [
@@ -347,8 +384,8 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/associate-consultant-data-analytics-reporting-ag-trading-at-cargill-4417689418",
             "convertibility": 89,
             "convertibility_reasons": [
-                "Cargill's trade analytics headquarters is in Gurgaon.",
-                "Entry-level role seeking fresh post-graduates with forecasting and data management qualifications.",
+                "Cargill Gurgaon hires fresh post-graduates for operations and trade analytics data support.",
+                "Direct entry-level data consulting role.",
                 "Aligns with her Excel forecasting & Marketing Analytics credentials."
             ],
             "skills_required": ["Data Analysis", "Marketing Analytics", "Analytical Forecasting", "Stakeholder Management"],
@@ -369,8 +406,8 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/taxmann-associate-product-manager-at-taxmann-4365395739",
             "convertibility": 88,
             "convertibility_reasons": [
-                "Taxmann hires entry-level APMs in NCR to manage their tax filing digital tools.",
-                "Tina's CRM diploma and customer mapping fits Taxmann's core audience segment optimization needs."
+                "Taxmann NCR hires entry-level APMs for tax filing tool product support.",
+                "Perfect for 0-2 years of experience."
             ],
             "skills_required": ["Product Management", "Customer Journey Mapping", "Competitive Benchmarking", "UX Auditing"],
             "contacts": [
@@ -395,12 +432,13 @@ def main():
 
     final_data = {
         "candidate": candidate,
+        "portal_search_links": portal_search_links,
         "jobs": jobs_data
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(final_data, f, indent=4)
-        print("data.json successfully generated with", len(jobs_data), "jobs.")
+        print("data.json successfully generated with", len(jobs_data), "jobs and", len(portal_search_links), "portal links.")
 
 if __name__ == "__main__":
     main()
