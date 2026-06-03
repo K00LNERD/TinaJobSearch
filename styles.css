@@ -973,3 +973,14 @@ body {
         flex-direction: column;
     }
 }
+
+/* Applied (Archived) Job Card State */
+.job-card.applied {
+    opacity: 0.55;
+    filter: grayscale(15%);
+}
+
+.job-card.applied:hover {
+    opacity: 0.95;
+    filter: none;
+}

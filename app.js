@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const companyFilter = document.getElementById('companyFilter');
     const scoreFilter = document.getElementById('scoreFilter');
     const salaryFilter = document.getElementById('salaryFilter');
+    const archiveToggle = document.getElementById('archiveToggle');
     const resetFiltersBtn = document.getElementById('resetFiltersBtn');
     
     const jobsGrid = document.getElementById('jobsGrid');
@@ -101,19 +102,15 @@ document.addEventListener('DOMContentLoaded', () => {
         companyFilter.innerHTML = '<option value="">All Companies</option>' + 
             companies.map(c => `<option value="${c}">${c}</option>`).join('');
 
-        // Stats
-        statTotalJobs.textContent = appData.jobs.length;
-        const highMatchCount = appData.jobs.filter(job => job.convertibility >= 90).length;
-        statHighConvert.textContent = highMatchCount;
-
-        // Initial Render of Jobs
-        renderJobs(appData.jobs);
+        // Initial Render and filter application
+        applyFilters();
 
         // Event Listeners
         searchInput.addEventListener('input', applyFilters);
         companyFilter.addEventListener('change', applyFilters);
         scoreFilter.addEventListener('change', applyFilters);
         salaryFilter.addEventListener('change', applyFilters);
+        archiveToggle.addEventListener('change', applyFilters);
         resetFiltersBtn.addEventListener('click', resetFilters);
         
         closePanelBtn.addEventListener('click', closeDetails);
@@ -132,6 +129,11 @@ document.addEventListener('DOMContentLoaded', () => {
         jobsGrid.innerHTML = '';
         resultsCount.textContent = `Showing ${jobsList.length} opportunit${jobsList.length === 1 ? 'y' : 'ies'}`;
 
+        // Update stats card dynamically
+        statTotalJobs.textContent = jobsList.length;
+        const highMatchCount = jobsList.filter(job => job.convertibility >= 90).length;
+        statHighConvert.textContent = highMatchCount;
+
         if (jobsList.length === 0) {
             jobsGrid.innerHTML = `
                 <div class="empty-state" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; background: var(--bg-secondary); border-radius: 18px; border: 1px dashed var(--border-color);">
@@ -148,13 +150,21 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'job-card';
             card.id = `card-${job.id}`;
             
+            const isApplied = job.status === 'applied';
+            if (isApplied) {
+                card.classList.add('applied');
+            }
+            
             const isHighScore = job.convertibility >= 90;
             const scoreClass = isHighScore ? 'high' : 'medium';
             const starIcon = isHighScore ? 'fa-star' : 'fa-star-half-stroke';
             
             card.innerHTML = `
                 <div class="job-card-header">
-                    <span class="job-company-badge">${job.company}</span>
+                    <div style="display: flex; gap: 0.4rem; align-items: center;">
+                        <span class="job-company-badge">${job.company}</span>
+                        ${isApplied ? `<span class="applied-badge" style="background: rgba(255, 255, 255, 0.08); color: var(--text-secondary); border: 1px solid var(--border-color); padding: 0.2rem 0.5rem; border-radius: 6px; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;"><i class="fa-solid fa-circle-check" style="color: var(--accent-emerald); margin-right: 0.2rem;"></i>Applied</span>` : ''}
+                    </div>
                     <span class="score-badge ${scoreClass}">
                         <i class="fa-solid ${starIcon}"></i> ${job.convertibility}% Fit
                     </span>
@@ -193,8 +203,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedCompany = companyFilter.value;
         const selectedMinScore = scoreFilter.value ? parseInt(scoreFilter.value) : 0;
         const selectedSalaryTier = salaryFilter.value;
+        const showApplied = archiveToggle.checked;
 
         const filteredJobs = appData.jobs.filter(job => {
+            // Archive Status Filter
+            const matchStatus = showApplied || job.status !== 'applied';
+
             // Text Search matching role, company, or skills
             const matchSearch = searchQuery === '' || 
                 job.title.toLowerCase().includes(searchQuery) ||
@@ -218,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            return matchSearch && matchCompany && matchScore && matchSalary;
+            return matchStatus && matchSearch && matchCompany && matchScore && matchSalary;
         });
 
         renderJobs(filteredJobs);
@@ -230,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
         companyFilter.value = '';
         scoreFilter.value = '';
         salaryFilter.value = '';
+        archiveToggle.checked = false;
         applyFilters();
     }
 

@@ -2,10 +2,11 @@ import json
 
 def get_outreach_templates(candidate, job, contact_name, contact_role):
     # LinkedIn note limit is 300 chars
+    loc = job['location'].split(',')[0]
     linkedin_note = (
         f"Hi {contact_name.split()[0] if ' ' in contact_name else contact_name}, "
         f"I'm Tina, a Great Lakes Chennai PGDM '26 grad and former Product Innovation Manager at Tagit. "
-        f"I saw the entry-level {job['title']} role at {job['company']} in Gurugram. Given my background in "
+        f"I saw the entry-level {job['title']} role at {job['company']} in {loc}. Given my background in "
         f"benchmarking 500+ platforms & customer journeys, I'd love to connect & learn about the team!"
     )
     if len(linkedin_note) > 300:
@@ -21,7 +22,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
             f"I hope you are doing well.\n\n"
             f"My name is Tina Jain, and I am a former Sales and Marketing Intern at Pepperfry (flagship stores, Aug-Oct 2022). I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026).\n\n"
             f"During my internship at Pepperfry, I managed 50+ HNI leads, resolved customer escalations, and helped drive monthly sales of INR 15L+. Since then, I have built further on my experience, working as a Product Innovation Manager at Tagit Pte Ltd and earning a Professional Diploma in Product Management.\n\n"
-            f"I saw the entry-level {job['title']} role in Gurugram and would love to return to Pepperfry in this capacity. I feel my understanding of Pepperfry's operations, combined with my PGDM and Product Marketing credentials, makes me a strong fit for your team.\n\n"
+            f"I saw the entry-level {job['title']} role in {loc} and would love to return to Pepperfry in this capacity. I feel my understanding of Pepperfry's operations, combined with my PGDM and Product Marketing credentials, makes me a strong fit for your team.\n\n"
             f"I would be deeply grateful for a few minutes to connect or for a referral to the hiring team for this role.\n\n"
             f"I have attached my resume, and my LinkedIn profile can be found here: {candidate['linkedin']}.\n\n"
             f"Thank you so much for your support and guidance!\n\n"
@@ -36,7 +37,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
             f"Dear {contact_name},\n\n"
             f"I hope you are doing well.\n\n"
             f"My name is Tina Jain, and I recently graduated with a PGDM (Marketing) from Great Lakes Institute of Management, Chennai (Class of 2026). "
-            f"I am reaching out because I saw the active entry-level {job['title']} position at {job['company']} in Gurugram, and I am very keen on exploring this opportunity. "
+            f"I am reaching out because I saw the active entry-level {job['title']} position at {job['company']} in {loc}, and I am very keen on exploring this opportunity. "
             f"Given your role as {contact_role} at {job['company']}, I wanted to connect and share my background.\n\n"
             f"During my recent tenure as a Product Innovation Manager at Tagit Pte Ltd, I gained hands-on experience in:\n"
             f"- Benchmarking 500+ global platforms across 10+ markets to prioritize 100+ differentiating product capabilities.\n"
@@ -54,6 +55,7 @@ def get_outreach_templates(candidate, job, contact_name, contact_role):
         )
     
     return linkedin_note, email_body
+
 
 def main():
     candidate = {
@@ -165,6 +167,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.zomato.com/careers",
             "convertibility": 96,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 15-20 LPA for entry-level B-school hires.",
                 "Structure: Structured fresher management track. Zomato actively recruits from GLIM Chennai.",
@@ -187,6 +190,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-urban-company-4419248379",
             "convertibility": 95,
+            "status": "active",
             "convertibility_reasons": [
                 "Premium tier: Pays 14-18 LPA for entry-level APMs.",
                 "Agile environment: Focuses on customer journey mapping and supplier dashboards matching her Tagit experience.",
@@ -209,6 +213,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/4405817132/",
             "convertibility": 96,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 14-18 LPA.",
                 "Strict entry-level: JD explicitly requests '0-2 years' of experience and designates the level as Assistant Manager.",
@@ -231,6 +236,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/4413515566/",
             "convertibility": 95,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-16 LPA.",
                 "Entry-level digital track: JD seeks entry/associate level profiles to support Global Dispute Management.",
@@ -253,6 +259,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/4418943086",
             "convertibility": 94,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 15-20 LPA for entry-level APMs.",
                 "CXM alignment: Sprinklr is a customer experience platform; Tina's customer journey mapping and UX audits (100+ apps) match this role.",
@@ -275,6 +282,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.reckitt.com/careers",
             "convertibility": 94,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 15-18 LPA.",
                 "FMCG brand track: Strictly entry-level campus/off-campus hiring for fresh MBA graduates.",
@@ -297,6 +305,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.delhivery.com/careers",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-16 LPA.",
                 "Logistics alignment: Direct fit for her logistics convenor background (coordinating 15 teams and 14 events).",
@@ -319,6 +328,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.zs.com/careers",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-15 LPA.",
                 "B-school recruiting: ZS recruits Consulting Analysts directly from GLIM Chennai.",
@@ -341,6 +351,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://blinkit.com/careers",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-15 LPA.",
                 "fresher role: Blended role in e-commerce merchandising and logistics coordination for freshers.",
@@ -363,6 +374,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-%E2%80%94-clm-at-indmoney-4419890337",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-15 LPA.",
                 "INDmoney is actively hiring entry-level analysts for transaction and app experience metrics.",
@@ -385,6 +397,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/consultant-business-consulting-pi-ami-cns-bc-supply-chain-operations-gurgaon-at-ey-4417660946",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-15 LPA.",
                 "EY Consulting Analyst is the standard entry-level role for fresh MBA/PGDM grads in Gurugram.",
@@ -407,6 +420,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/4417593697/",
             "convertibility": 92,
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 12-15 LPA.",
                 "Management level 11 (Analyst) is Accenture's entry rank for fresh PGDM/MBA graduates.",
@@ -429,6 +443,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/4410355301/",
             "convertibility": 93,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "Policybazaar hires junior analysts to manage metrics, track conversion funnels, and optimize insurance portals.",
@@ -451,6 +466,7 @@ def main():
             "location": "Gurugram / Remote (HQ Mumbai)",
             "apply_url": "https://www.pepperfry.com/careers.html",
             "convertibility": 98,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "Warm lead: Tina is a former Pepperfry Sales & Marketing Intern with a proven track record (15L+ monthly sales).",
@@ -473,6 +489,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-growth-lead-at-intozi-4398234602",
             "convertibility": 92,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 8-10 LPA.",
                 "Intozi is a Gurugram B2B AI startup seeking freshers to execute marketing and sales pipelines.",
@@ -495,6 +512,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.linkedin.com/jobs/view/assistant-brand-manager-at-cotecna-4390583149/",
             "convertibility": 92,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "Cotecna is hiring freshers for brand activation in NCR.",
@@ -517,6 +535,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-at-sbnri-4422836094",
             "convertibility": 91,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "SBNRI Gurgaon is a fintech startup hiring entry-level analysts (0-2 years experience).",
@@ -539,6 +558,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-aurora-energy-research-4400761802",
             "convertibility": 90,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 11-13 LPA.",
                 "Aurora's Gurgaon office hires entry-level APMs.",
@@ -561,6 +581,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/associate-consultant-data-analytics-reporting-ag-trading-at-cargill-4417689418",
             "convertibility": 89,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "Cargill Gurgaon hires fresh post-graduates for operations and trade analytics data support.",
@@ -583,6 +604,7 @@ def main():
             "location": "Noida / Gurugram",
             "apply_url": "https://in.linkedin.com/jobs/view/taxmann-associate-product-manager-at-taxmann-4365395739",
             "convertibility": 88,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-12 LPA.",
                 "Taxmann NCR hires entry-level APMs for tax filing tool product support."
@@ -604,6 +626,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.mobikwik.com/careers",
             "convertibility": 92,
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 10-14 LPA.",
                 "Gurugram Headquarters: MobiKwik hires fresh product analysts for wallet and credit product analytics.",
@@ -626,6 +649,7 @@ def main():
             "location": "Gurugram / Remote",
             "apply_url": "https://www.linkedin.com/jobs/view/4423914296",
             "convertibility": 87,
+            "status": "active",
             "convertibility_reasons": [
                 "Standard tier: Pays 8-10 LPA.",
                 "Explicitly open to freshers: job posting targets freshers & experienced analysts for data dashboards.",
@@ -640,8 +664,377 @@ def main():
                     "email_format": "careers@appzime.com",
                 }
             ]
+        },
+        {
+            "id": "ixigo_apm",
+            "title": "Associate Product Manager",
+            "company": "ixigo",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.ixigo.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Growth stage: Mid-sized travel tech player with a strong focus on data-driven product decisions.",
+                "Fresher-friendly: Actively hires product management graduates from top institutes like GLIM Chennai.",
+                "Outreach: Multiple GLIM alumni work in PM/growth teams at ixigo Gurgaon."
+            ],
+            "skills_required": ["Product Management", "Data Analytics", "UX Design", "GTM Strategy"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20ixigo%20Great%20Lakes",
+                    "email_format": "first.last@ixigo.com",
+                }
+            ]
+        },
+        {
+            "id": "silveredge_apm",
+            "title": "Associate Product Manager",
+            "company": "SilverEdge Technologies",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.silveredge.in/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Startup focus: Smaller tech company, ideal entry point for product management roles.",
+                "Skills alignment: Prioritizes agile methodologies and user story creation.",
+                "Outreach: Founder-led team, high response rate to direct applications and cold messages."
+            ],
+            "skills_required": ["Product Management", "Agile Methodologies", "User Stories", "Competitive Benchmarking"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "HR / Product Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Lead%20SilverEdge%20Technologies",
+                    "email_format": "careers@silveredge.in",
+                }
+            ]
+        },
+        {
+            "id": "tyreplex_apm",
+            "title": "Associate Product Manager",
+            "company": "TyrePlex",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.tyreplex.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Niche growth: Automotive e-commerce startup scaling rapidly in Gurugram.",
+                "Data focus: Directly aligns with user metrics and data tracking skills.",
+                "Culture: Open startup culture with high visibility for fresh MBA hires."
+            ],
+            "skills_required": ["Product Management", "Roadmap Management", "Product Vision", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Tech & Product Recruiter",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20TyrePlex",
+                    "email_format": "hr@tyreplex.com",
+                }
+            ]
+        },
+        {
+            "id": "contify_apm",
+            "title": "Associate Product Manager",
+            "company": "Contify",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.contify.com/careers",
+            "convertibility": 92,
+            "status": "active",
+            "convertibility_reasons": [
+                "Tech focus: Market intelligence platform utilizing GenAI and data analytics.",
+                "Product lifecycle: Direct exposure to end-to-end product development for enterprise SaaS.",
+                "Fit: Matches her platform benchmarking & Tagit software experience."
+            ],
+            "skills_required": ["Product Management", "Generative AI", "Enterprise SaaS", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Head",
+                    "role": "Product Director",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Director%20Contify",
+                    "email_format": "contact@contify.com",
+                }
+            ]
+        },
+        {
+            "id": "varaha_apm",
+            "title": "Associate Product Manager (Cotton)",
+            "company": "Varaha",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://varaha.earth/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Climate Tech: High-growth carbon removal startup looking for fast execution specialists.",
+                "No-code prototyping: Excellent fit for her ability to rapidly prototype using digital tools.",
+                "Outreach: Strong presence on LinkedIn, responsive to direct pitches."
+            ],
+            "skills_required": ["Product Management", "No-code Prototyping", "SQL", "Field Research"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Lead Recruiter / Co-founder",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Co-Founder%20Varaha",
+                    "email_format": "info@varaha.earth",
+                }
+            ]
+        },
+        {
+            "id": "livekeeping_apm",
+            "title": "Associate Product Manager",
+            "company": "Livekeeping",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://www.livekeeping.com/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "SaaS backed: Backed by IndiaMART, providing high growth and financial stability in Noida.",
+                "Fresher focused: Actively seeks entry-level product coordinators for SaaS integrations.",
+                "Outreach: Recruiting leads are very active on Unstop and Cutshort."
+            ],
+            "skills_required": ["Product Management", "SaaS Platform", "User Guides", "Tally Integration"],
+            "contacts": [
+                {
+                    "name_placeholder": "Recruiting Manager",
+                    "role": "IndiaMART/Livekeeping HR",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Livekeeping%20IndiaMART",
+                    "email_format": "hr@livekeeping.com",
+                }
+            ]
+        },
+        {
+            "id": "kraftshala_apm",
+            "title": "Associate Product Manager",
+            "company": "Kraftshala",
+            "location": "New Delhi",
+            "apply_url": "https://www.kraftshala.com/careers",
+            "convertibility": 96,
+            "status": "active",
+            "convertibility_reasons": [
+                "EdTech/Marketing focus: Direct synergy with her PGDM Marketing & education sector interest.",
+                "Systems thinking: Valuation of cohort-based learning and AI-native workflows matches her Tagit experience.",
+                "Delhi based: Core team based in Delhi, very startup-oriented."
+            ],
+            "skills_required": ["Product Management", "Systems Thinking", "Cohort Learning", "AI Workflows"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Product Head",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Kraftshala",
+                    "email_format": "hr@kraftshala.com",
+                }
+            ]
+        },
+        {
+            "id": "lendbox_apm",
+            "title": "Associate Product Manager",
+            "company": "Lendbox",
+            "location": "New Delhi",
+            "apply_url": "https://www.lendbox.in/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Fintech growth: Top P2P lending platform in Delhi, hiring junior PMs for UX enhancements.",
+                "Tagit Synergy: Directly matches her Tagit digital banking and benchmarking tenure.",
+                "MBA Value: Actively values MBA graduates with product management diplomas."
+            ],
+            "skills_required": ["Product Management", "Fintech Domain", "UX Design", "Quality Assurance"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "HR Lead / PM Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Lendbox",
+                    "email_format": "careers@lendbox.in",
+                }
+            ]
+        },
+        {
+            "id": "kenresearch_analyst",
+            "title": "Research Analyst",
+            "company": "Ken Research",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.kenresearch.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Consulting focus: Market intelligence firm requiring strategic research and analysis.",
+                "Excel analysis: Fits her Excel forecasting and marketing analytics certificates.",
+                "NCR hub: Gurugram based, hiring junior research associates."
+            ],
+            "skills_required": ["Market Research", "Consulting", "Excel Forecasting", "Strategy Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Recruitment Head",
+                    "role": "HR Specialist",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Ken%20Research",
+                    "email_format": "hr@kenresearch.com",
+                }
+            ]
+        },
+        {
+            "id": "wishlink_analyst",
+            "title": "Product Analyst",
+            "company": "Wishlink",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.wishlink.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Creator economy: High-growth D2C/creator commerce startup, backing from top VCs.",
+                "Synergy: Combines product analytics with e-commerce growth strategies.",
+                "Culture: Highly dynamic startup with low hierarchy and direct founder interaction."
+            ],
+            "skills_required": ["Product Analytics", "E-commerce Merchandising", "Cohort Analysis", "Data-driven Decision Making"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Recruiter",
+                    "role": "Talent Acquisition Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Wishlink",
+                    "email_format": "hr@wishlink.com",
+                }
+            ]
+        },
+        {
+            "id": "imarc_analyst",
+            "title": "Research Analyst (Market Research)",
+            "company": "IMARC Group",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://www.imarcgroup.com/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Market intelligence: Noida HQ, hires fresh MBA grads for sector research reports.",
+                "Skills alignment: Direct fit for her BBA & PGDM research/writing projects.",
+                "Scale: Large volume recruiter for entry-level analyst pipelines."
+            ],
+            "skills_required": ["Market Research", "Report Writing", "Data Collection", "Strategic Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Recruiting Manager",
+                    "role": "Talent Acquisition Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20IMARC%20Group",
+                    "email_format": "careers@imarcgroup.com",
+                }
+            ]
+        },
+        {
+            "id": "classplus_brand",
+            "title": "Brand Analyst / Growth Associate",
+            "company": "Classplus",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://classplusapp.com/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Growth marketing: Top Noida edtech startup hiring analysts to optimize brand campaigns.",
+                "Marketing fit: Aligns with her PGDM Marketing and consumer psychology courses.",
+                "Startups: Agile team structure allowing high learning curve."
+            ],
+            "skills_required": ["Brand Strategy", "Growth Marketing", "Consumer Psychology", "Campaign Optimization"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Marketing",
+                    "role": "Brand Lead (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Brand%20Classplus%20Great%20Lakes",
+                    "email_format": "hr@classplusapp.com",
+                }
+            ]
+        },
+        {
+            "id": "classplus_apm",
+            "title": "AI Associate Product Manager",
+            "company": "Classplus",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://classplusapp.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "AI integration: EdTech startup implementing AI tools for student engagement and growth.",
+                "Product mapping: Aligns with her Tagit app audit and persona mapping experience.",
+                "Noida hub: Commutable location, offering modern workspace."
+            ],
+            "skills_required": ["Product Management", "AI Integration", "User Engagement", "UX Auditing"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Lead",
+                    "role": "Senior Product Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Classplus",
+                    "email_format": "careers@classplusapp.com",
+                }
+            ]
+        },
+        {
+            "id": "bobble_growth",
+            "title": "Growth Associate",
+            "company": "Bobble AI",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://bobble.ai/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "App growth: Top keyboard and AI data startup, focus on user acquisition.",
+                "B2B Outreach: Matches her Tagit value prop & client analysis background.",
+                "NCR comms: Based in Gurugram, offering high interaction."
+            ],
+            "skills_required": ["Growth Hacking", "SEO & Digital Marketing", "B2B Outreach", "Analytical Forecasting"],
+            "contacts": [
+                {
+                    "name_placeholder": "Growth Recruiter",
+                    "role": "Talent Acquisition Head",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Bobble%20AI",
+                    "email_format": "careers@bobble.ai",
+                }
+            ]
+        },
+        {
+            "id": "bluetokai_brand",
+            "title": "Brand & Marketing Executive",
+            "company": "Blue Tokai Coffee Roasters",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://bluetokaicoffee.com/careers",
+            "convertibility": 92,
+            "status": "active",
+            "convertibility_reasons": [
+                "D2C success: Premium coffee brand with massive footprint expansion.",
+                "Consumer Focus: Fits her Pepperfry intern sales/HNI lead background.",
+                "Marketing: Direct application of consumer behaviour and GTM strategies."
+            ],
+            "skills_required": ["Brand Strategy", "Digital Marketing", "Consumer Behaviour", "Campaign Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Marketing Manager",
+                    "role": "Brand Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Brand%20Manager%20Blue%20Tokai",
+                    "email_format": "careers@bluetokaicoffee.com",
+                }
+            ]
+        },
+        {
+            "id": "chaayos_growth",
+            "title": "Growth & Marketing Associate",
+            "company": "Chaayos",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.chaayos.com/careers",
+            "convertibility": 92,
+            "status": "active",
+            "convertibility_reasons": [
+                "Consumer retail: Fast-growing food-tech brand in Gurugram.",
+                "Growth marketing: Aligns with quick consumer activation and loyalty plans.",
+                "Fresher focus: Hires fresh post-grads for marketing campaigns."
+            ],
+            "skills_required": ["Growth Hacking", "Campaign Management", "Consumer Psychology", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "HR Recruiter",
+                    "role": "Recruitment Associate",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Chaayos",
+                    "email_format": "hr@chaayos.com",
+                }
+            ]
         }
     ]
+
 
     # Populate outreach letters for all contacts
     for job in jobs_data:
