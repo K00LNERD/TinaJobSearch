@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const companyFilter = document.getElementById('companyFilter');
     const scoreFilter = document.getElementById('scoreFilter');
+    const salaryFilter = document.getElementById('salaryFilter');
     const resetFiltersBtn = document.getElementById('resetFiltersBtn');
     
     const jobsGrid = document.getElementById('jobsGrid');
@@ -112,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', applyFilters);
         companyFilter.addEventListener('change', applyFilters);
         scoreFilter.addEventListener('change', applyFilters);
+        salaryFilter.addEventListener('change', applyFilters);
         resetFiltersBtn.addEventListener('click', resetFilters);
         
         closePanelBtn.addEventListener('click', closeDetails);
@@ -190,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchQuery = searchInput.value.toLowerCase().trim();
         const selectedCompany = companyFilter.value;
         const selectedMinScore = scoreFilter.value ? parseInt(scoreFilter.value) : 0;
+        const selectedSalaryTier = salaryFilter.value;
 
         const filteredJobs = appData.jobs.filter(job => {
             // Text Search matching role, company, or skills
@@ -204,7 +207,18 @@ document.addEventListener('DOMContentLoaded', () => {
             // Score Filter
             const matchScore = job.convertibility >= selectedMinScore;
 
-            return matchSearch && matchCompany && matchScore;
+            // Salary Filter
+            let matchSalary = true;
+            if (selectedSalaryTier) {
+                const firstReason = job.convertibility_reasons[0].toLowerCase();
+                if (selectedSalaryTier === 'premium') {
+                    matchSalary = firstReason.includes('premium');
+                } else if (selectedSalaryTier === 'standard') {
+                    matchSalary = firstReason.includes('standard');
+                }
+            }
+
+            return matchSearch && matchCompany && matchScore && matchSalary;
         });
 
         renderJobs(filteredJobs);
@@ -215,6 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.value = '';
         companyFilter.value = '';
         scoreFilter.value = '';
+        salaryFilter.value = '';
         applyFilters();
     }
 

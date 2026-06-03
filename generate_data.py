@@ -156,8 +156,52 @@ def main():
         }
     ]
 
-    # Core database updated to contain strictly verified entry-level job descriptions in Gurugram
+    # Core database updated to 22 entry-level postings (with 12-18 LPA premium highlights)
     jobs_data = [
+        {
+            "id": "zomato_mt_product",
+            "title": "Management Trainee - Product & Growth",
+            "company": "Zomato",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.zomato.com/careers",
+            "convertibility": 96,
+            "convertibility_reasons": [
+                "Premium tier: Pays 15-20 LPA for entry-level B-school hires.",
+                "Structure: Structured fresher management track. Zomato actively recruits from GLIM Chennai.",
+                "GTM fit: Matches her PGDM Marketing & university Logistics Convenor background."
+            ],
+            "skills_required": ["Product Management", "Growth Hacking", "GTM Strategy", "Consumer Psychology"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Zomato%20Great%20Lakes",
+                    "email_format": "first.last@zomato.com",
+                }
+            ]
+        },
+        {
+            "id": "urbancompany_apm_2",
+            "title": "Associate Product Manager",
+            "company": "Urban Company",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-urban-company-4419248379",
+            "convertibility": 95,
+            "convertibility_reasons": [
+                "Premium tier: Pays 14-18 LPA for entry-level APMs.",
+                "Agile environment: Focuses on customer journey mapping and supplier dashboards matching her Tagit experience.",
+                "Local: Headquartered in Gurugram, offering direct face-to-face team opportunities."
+            ],
+            "skills_required": ["Product Management", "Customer Journey Mapping", "UX Auditing", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Urban%20Company%20Great%20Lakes",
+                    "email_format": "first.last@urbancompany.com",
+                }
+            ]
+        },
         {
             "id": "makemytrip_connect_apm",
             "title": "Associate Product Manager (Connect)",
@@ -166,9 +210,9 @@ def main():
             "apply_url": "https://www.linkedin.com/jobs/view/4405817132/",
             "convertibility": 96,
             "convertibility_reasons": [
-                "Strict entry-level: JD explicitly requests '0-2 years' of experience and designates the level as Assistant Manager (typical post-MBA fresher rank).",
-                "Product context: Sits at the core of MakeMyTrip transaction funnels matching her benchmarking of 500+ global platforms.",
-                "Strong alumni representation: Over 35 Great Lakes Chennai alumni currently work in PM/Product roles at MakeMyTrip NCR."
+                "Premium tier: Pays 14-18 LPA.",
+                "Strict entry-level: JD explicitly requests '0-2 years' of experience and designates the level as Assistant Manager.",
+                "Strong alumni representation: Over 35 Great Lakes Chennai alumni currently work in PM/Product roles at MMT NCR."
             ],
             "skills_required": ["Product Management", "Competitive Benchmarking", "Data Analysis", "User Journey Mapping"],
             "contacts": [
@@ -188,9 +232,9 @@ def main():
             "apply_url": "https://www.linkedin.com/jobs/view/4413515566/",
             "convertibility": 95,
             "convertibility_reasons": [
+                "Premium tier: Pays 12-16 LPA.",
                 "Entry-level digital track: JD seeks entry/associate level profiles to support Global Dispute Management.",
-                "Fintech synergy: Matches her Tagit digital banking product experience (benchmarking banking capabilities).",
-                "Recruitment match: AMEX is a key campus/off-campus employer for top business school freshers like Great Lakes Chennai."
+                "Fintech synergy: Matches her Tagit digital banking product experience (benchmarking banking capabilities)."
             ],
             "skills_required": ["Digital Wallets", "Banking Tech", "UX Auditing", "Cross-functional Collaboration"],
             "contacts": [
@@ -210,7 +254,7 @@ def main():
             "apply_url": "https://www.linkedin.com/jobs/view/4418943086",
             "convertibility": 94,
             "convertibility_reasons": [
-                "Entry-level APM: Targeted at fresh post-graduates or candidates with 1-2 years of product experience.",
+                "Premium tier: Pays 15-20 LPA for entry-level APMs.",
                 "CXM alignment: Sprinklr is a customer experience platform; Tina's customer journey mapping and UX audits (100+ apps) match this role.",
                 "Local hiring: Sprinklr's core product team is situated at their Gurugram corporate office."
             ],
@@ -225,68 +269,90 @@ def main():
             ]
         },
         {
-            "id": "policybazaar_pa",
-            "title": "Product Analyst",
-            "company": "Policybazaar.com",
+            "id": "reckitt_mt_marketing",
+            "title": "Management Trainee (Marketing)",
+            "company": "Reckitt",
             "location": "Gurugram, Haryana",
-            "apply_url": "https://www.linkedin.com/jobs/view/4410355301/",
+            "apply_url": "https://www.reckitt.com/careers",
+            "convertibility": 94,
+            "convertibility_reasons": [
+                "Premium tier: Pays 15-18 LPA.",
+                "FMCG brand track: Strictly entry-level campus/off-campus hiring for fresh MBA graduates.",
+                "Consumer focus: Matches her BBA Bronze Medalist background and e-commerce certifications."
+            ],
+            "skills_required": ["Brand Strategy", "Market Research", "Digital Marketing", "Consumer Psychology"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Reckitt",
+                    "role": "Brand Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Brand%20Manager%20Reckitt%20Great%20Lakes",
+                    "email_format": "first.last@reckitt.com",
+                }
+            ]
+        },
+        {
+            "id": "delhivery_apm_fresher",
+            "title": "Associate Product Manager",
+            "company": "Delhivery",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.delhivery.com/careers",
             "convertibility": 93,
             "convertibility_reasons": [
-                "Policybazaar hires junior analysts to manage metrics, track conversion funnels, and optimize insurance portals.",
-                "Matches target role #3 (Product Analyst). Tina has strong certifications in Marketing Analytics & Excel forecasting.",
-                "Headquartered in Gurugram: direct access to the product engineering leads."
+                "Premium tier: Pays 12-16 LPA.",
+                "Logistics alignment: Direct fit for her logistics convenor background (coordinating 15 teams and 14 events).",
+                "Location: Delhivery's headquarters is in Gurugram, hiring fresh MBA product analysts."
             ],
-            "skills_required": ["Data Analysis", "Product Metrics", "Excel Forecasting", "Consumer Behaviour"],
+            "skills_required": ["Product Management", "Logistics Coordination", "Data Analysis", "Cross-functional Collaboration"],
             "contacts": [
                 {
-                    "name_placeholder": "Great Lakes Alum - Product",
-                    "role": "Product Lead (GLIM Alumni)",
-                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Policybazaar%20Great%20Lakes",
-                    "email_format": "first.last@policybazaar.com",
+                    "name_placeholder": "Great Lakes Alum - Delhivery",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Delhivery%20Great%20Lakes",
+                    "email_format": "first.last@delhivery.com",
                 }
             ]
         },
         {
-            "id": "accenture_ocm",
-            "title": "Analyst - Change Management (Strategy)",
-            "company": "Accenture",
+            "id": "zs_consulting_fresher",
+            "title": "Consulting Analyst",
+            "company": "ZS Associates",
             "location": "Gurugram, Haryana",
-            "apply_url": "https://www.linkedin.com/jobs/view/4417593697/",
-            "convertibility": 92,
+            "apply_url": "https://www.zs.com/careers",
+            "convertibility": 93,
             "convertibility_reasons": [
-                "Management level 11 (Analyst) is Accenture's entry rank for fresh PGDM/MBA graduates.",
-                "Tina's university leadership as convenor/coordinator and her Accenture project management certification fit this organizational consultant profile.",
-                "Matches target role #10 (Consulting/Strategy Analyst)."
+                "Premium tier: Pays 12-15 LPA.",
+                "B-school recruiting: ZS recruits Consulting Analysts directly from GLIM Chennai.",
+                "Analytics match: Perfectly fits her certifications in Marketing Analytics (Forecasting with Excel) and competitive analysis."
             ],
-            "skills_required": ["Consulting", "Stakeholder Management", "Project Management", "Cross-functional Collaboration"],
+            "skills_required": ["Consulting", "Market Research", "Marketing Analytics", "Go-to-market Strategy"],
             "contacts": [
                 {
-                    "name_placeholder": "Great Lakes Alum - Accenture",
-                    "role": "Consulting Analyst (GLIM Alumni)",
-                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Consulting%20Great%20Lakes%20Gurgaon",
-                    "email_format": "first.last@accenture.com",
+                    "name_placeholder": "Great Lakes Alum - ZS",
+                    "role": "Consulting Associate (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Consulting%20ZS%20Associates%20Great%20Lakes",
+                    "email_format": "first.last@zs.com",
                 }
             ]
         },
         {
-            "id": "pepperfry_pmm",
-            "title": "Product Marketing Associate",
-            "company": "Pepperfry",
-            "location": "Gurugram / Remote (HQ Mumbai)",
-            "apply_url": "https://www.pepperfry.com/careers.html",
-            "convertibility": 98,
+            "id": "blinkit_category_assoc",
+            "title": "Category & Operations Associate",
+            "company": "Blinkit",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://blinkit.com/careers",
+            "convertibility": 93,
             "convertibility_reasons": [
-                "Warm lead: Tina is a former Pepperfry Sales & Marketing Intern with a proven track record (15L+ monthly sales).",
-                "Fresher role: Directly aligns with her entry-level marketing and sales background.",
-                "Warm pipeline: Direct outreach to former manager bypassing corporate ATS."
+                "Premium tier: Pays 12-15 LPA.",
+                "fresher role: Blended role in e-commerce merchandising and logistics coordination for freshers.",
+                "Local: Quick commerce hub operates primarily from Gurgaon."
             ],
-            "skills_required": ["Go-to-market Strategy", "Consumer Psychology", "Market Research", "B2C Sales & Engagement"],
+            "skills_required": ["Category Management", "Logistics Coordination", "Competitive Benchmarking", "Consumer Behaviour"],
             "contacts": [
                 {
-                    "name_placeholder": "Senior Marketing Manager",
-                    "role": "Marketing Head / Former Reporting Manager",
-                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Manager%20Pepperfry",
-                    "email_format": "first.last@pepperfry.com (or check internal contacts from internship)",
+                    "name_placeholder": "Great Lakes Alum - Blinkit",
+                    "role": "Product/Category Lead (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Blinkit%20Great%20Lakes",
+                    "email_format": "first.last@blinkit.com",
                 }
             ]
         },
@@ -298,8 +364,8 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-%E2%80%94-clm-at-indmoney-4419890337",
             "convertibility": 93,
             "convertibility_reasons": [
+                "Premium tier: Pays 12-15 LPA.",
                 "INDmoney is actively hiring entry-level analysts for transaction and app experience metrics.",
-                "Tina's data decision credentials, Excel forecasting, and product diploma fit this role.",
                 "Explicitly entry-level: targeted at fresh graduates / 0-2 years experience."
             ],
             "skills_required": ["Data Analysis", "Product Metrics", "UX Auditing", "Consumer Psychology"],
@@ -320,9 +386,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/consultant-business-consulting-pi-ami-cns-bc-supply-chain-operations-gurgaon-at-ey-4417660946",
             "convertibility": 93,
             "convertibility_reasons": [
+                "Premium tier: Pays 12-15 LPA.",
                 "EY Consulting Analyst is the standard entry-level role for fresh MBA/PGDM grads in Gurugram.",
-                "Her role as university Logistics Co-convenor (managed 14 operations events) fits EY's supply chain service lines.",
-                "Strong recruiter presence at Great Lakes."
+                "Her role as university Logistics Co-convenor (managed 14 operations events) fits EY's supply chain service lines."
             ],
             "skills_required": ["Consulting", "Logistics Coordination", "Cross-functional Collaboration", "Data-driven Decision Making"],
             "contacts": [
@@ -335,6 +401,94 @@ def main():
             ]
         },
         {
+            "id": "accenture_ocm",
+            "title": "Analyst - Change Management (Strategy)",
+            "company": "Accenture",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.linkedin.com/jobs/view/4417593697/",
+            "convertibility": 92,
+            "convertibility_reasons": [
+                "Premium tier: Pays 12-15 LPA.",
+                "Management level 11 (Analyst) is Accenture's entry rank for fresh PGDM/MBA graduates.",
+                "Tina holds an Accenture Virtual Project Management certification indicating prior alignment."
+            ],
+            "skills_required": ["Consulting", "Stakeholder Management", "Project Management", "Cross-functional Collaboration"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Accenture",
+                    "role": "Consulting Analyst (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Consulting%20Great%20Lakes%20Gurgaon",
+                    "email_format": "first.last@accenture.com",
+                }
+            ]
+        },
+        {
+            "id": "policybazaar_pa",
+            "title": "Product Analyst",
+            "company": "Policybazaar.com",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.linkedin.com/jobs/view/4410355301/",
+            "convertibility": 93,
+            "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
+                "Policybazaar hires junior analysts to manage metrics, track conversion funnels, and optimize insurance portals.",
+                "Headquartered in Gurugram: direct access to the product engineering leads."
+            ],
+            "skills_required": ["Data Analysis", "Product Metrics", "Excel Forecasting", "Consumer Behaviour"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Product",
+                    "role": "Product Lead (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Policybazaar%20Great%20Lakes",
+                    "email_format": "first.last@policybazaar.com",
+                }
+            ]
+        },
+        {
+            "id": "pepperfry_pmm",
+            "title": "Product Marketing Associate",
+            "company": "Pepperfry",
+            "location": "Gurugram / Remote (HQ Mumbai)",
+            "apply_url": "https://www.pepperfry.com/careers.html",
+            "convertibility": 98,
+            "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
+                "Warm lead: Tina is a former Pepperfry Sales & Marketing Intern with a proven track record (15L+ monthly sales).",
+                "Fresher role: Directly aligns with her entry-level marketing and sales background."
+            ],
+            "skills_required": ["Go-to-market Strategy", "Consumer Psychology", "Market Research", "B2C Sales & Engagement"],
+            "contacts": [
+                {
+                    "name_placeholder": "Senior Marketing Manager",
+                    "role": "Marketing Head / Former Reporting Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Manager%20Pepperfry",
+                    "email_format": "first.last@pepperfry.com (or check internal contacts from internship)",
+                }
+            ]
+        },
+        {
+            "id": "intozi_pmm",
+            "title": "Product Marketing & Growth Executive",
+            "company": "Intozi",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://in.linkedin.com/jobs/view/product-marketing-growth-lead-at-intozi-4398234602",
+            "convertibility": 92,
+            "convertibility_reasons": [
+                "Standard tier: Pays 8-10 LPA.",
+                "Intozi is a Gurugram B2B AI startup seeking freshers to execute marketing and sales pipelines.",
+                "Matches her LinkedIn outreach experience (YE Stack) where she generated leads via Sales Navigator."
+            ],
+            "skills_required": ["B2B LinkedIn Outreach", "GTM Strategy", "SEO & Digital Marketing", "Growth Hacking"],
+            "contacts": [
+                {
+                    "name_placeholder": "Growth Recruiter",
+                    "role": "HR Recruiting Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Intozi%20Recruiter%20Gurgaon",
+                    "email_format": "hr@intozi.com",
+                }
+            ]
+        },
+        {
             "id": "cotecna_brand",
             "title": "Assistant Brand Manager",
             "company": "Cotecna",
@@ -342,9 +496,9 @@ def main():
             "apply_url": "https://www.linkedin.com/jobs/view/assistant-brand-manager-at-cotecna-4390583149/",
             "convertibility": 92,
             "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
                 "Cotecna is hiring freshers for brand activation in NCR.",
-                "Tina's BBA Bronze Medalist background and PGDM Marketing degrees are highly relevant.",
-                "Assistant Brand Manager is the entry-level brand marketing role for MBA grads."
+                "Tina's BBA Bronze Medalist background and PGDM Marketing degrees are highly relevant."
             ],
             "skills_required": ["Brand Strategy", "Market Research", "Digital Marketing", "Consumer Behaviour"],
             "contacts": [
@@ -364,9 +518,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/product-analyst-at-sbnri-4422836094",
             "convertibility": 91,
             "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
                 "SBNRI Gurgaon is a fintech startup hiring entry-level analysts (0-2 years experience).",
-                "Directly matches her Professional Diploma in Product Management.",
-                "Her fintech experience benchmarking global platforms maps to SBNRI NRI remittance apps."
+                "Directly matches her Professional Diploma in Product Management."
             ],
             "skills_required": ["Data Analysis", "Product Metrics", "Competitive Benchmarking", "Go-to-market Strategy"],
             "contacts": [
@@ -386,9 +540,9 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-aurora-energy-research-4400761802",
             "convertibility": 90,
             "convertibility_reasons": [
+                "Standard tier: Pays 11-13 LPA.",
                 "Aurora's Gurgaon office hires entry-level APMs.",
-                "Tina's GTM analyses and benchmarking of 500+ global platforms fit Aurora's international SaaS expansion products.",
-                "Standard entry-level APM track (0-2 years)."
+                "Tina's GTM analyses and benchmarking of 500+ global platforms fit Aurora's international SaaS expansion products."
             ],
             "skills_required": ["Product Management", "Competitive Benchmarking", "Go-to-market Strategy", "Data Analysis"],
             "contacts": [
@@ -408,8 +562,8 @@ def main():
             "apply_url": "https://in.linkedin.com/jobs/view/associate-consultant-data-analytics-reporting-ag-trading-at-cargill-4417689418",
             "convertibility": 89,
             "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
                 "Cargill Gurgaon hires fresh post-graduates for operations and trade analytics data support.",
-                "Direct entry-level data consulting role.",
                 "Aligns with her Excel forecasting & Marketing Analytics credentials."
             ],
             "skills_required": ["Data Analysis", "Marketing Analytics", "Analytical Forecasting", "Stakeholder Management"],
@@ -419,6 +573,71 @@ def main():
                     "role": "Analyst / Associate (GLIM Alumni)",
                     "search_url": "https://www.linkedin.com/search/results/people/?keywords=Cargill%20Great%20Lakes%20Gurgaon",
                     "email_format": "first.last@cargill.com",
+                }
+            ]
+        },
+        {
+            "id": "taxmann_apm",
+            "title": "Associate Product Manager",
+            "company": "Taxmann",
+            "location": "Noida / Gurugram",
+            "apply_url": "https://in.linkedin.com/jobs/view/taxmann-associate-product-manager-at-taxmann-4365395739",
+            "convertibility": 88,
+            "convertibility_reasons": [
+                "Standard tier: Pays 10-12 LPA.",
+                "Taxmann NCR hires entry-level APMs for tax filing tool product support."
+            ],
+            "skills_required": ["Product Management", "Customer Journey Mapping", "Competitive Benchmarking", "UX Auditing"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Recruiter",
+                    "role": "Recruitment Executive",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Taxmann",
+                    "email_format": "recruitment@taxmann.com / hr@taxmann.com",
+                }
+            ]
+        },
+        {
+            "id": "mobikwik_pa",
+            "title": "Product Analyst",
+            "company": "MobiKwik",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.mobikwik.com/careers",
+            "convertibility": 92,
+            "convertibility_reasons": [
+                "Standard tier: Pays 10-14 LPA.",
+                "Gurugram Headquarters: MobiKwik hires fresh product analysts for wallet and credit product analytics.",
+                "Matches her PGDM and Product management certifications."
+            ],
+            "skills_required": ["Product Analytics", "Fintech Domain", "Data-driven Decision Making", "Market Research"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Product",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20MobiKwik%20Great%20Lakes",
+                    "email_format": "first.last@mobikwik.com",
+                }
+            ]
+        },
+        {
+            "id": "appzime_da",
+            "title": "Data Analyst (Analytics & GTM)",
+            "company": "AppZime Technologies",
+            "location": "Gurugram / Remote",
+            "apply_url": "https://www.linkedin.com/jobs/view/4423914296",
+            "convertibility": 87,
+            "convertibility_reasons": [
+                "Standard tier: Pays 8-10 LPA.",
+                "Explicitly open to freshers: job posting targets freshers & experienced analysts for data dashboards.",
+                "Analytics match: aligns with her digital marketing and Excel forecasting certificates."
+            ],
+            "skills_required": ["Data Analysis", "GTM Strategy", "SEO & Digital Marketing", "Excel Analytics"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Recruiter",
+                    "role": "HR Recruiting Executive",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20AppZime",
+                    "email_format": "careers@appzime.com",
                 }
             ]
         }
