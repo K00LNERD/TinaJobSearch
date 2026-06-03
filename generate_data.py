@@ -190,7 +190,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-urban-company-4419248379",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Premium tier: Pays 14-18 LPA for entry-level APMs.",
                 "Agile environment: Focuses on customer journey mapping and supplier dashboards matching her Tagit experience.",
@@ -649,7 +649,7 @@ def main():
             "location": "Gurugram / Remote",
             "apply_url": "https://www.linkedin.com/jobs/view/4423914296",
             "convertibility": 87,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Standard tier: Pays 8-10 LPA.",
                 "Explicitly open to freshers: job posting targets freshers & experienced analysts for data dashboards.",
@@ -672,7 +672,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.ixigo.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Growth stage: Mid-sized travel tech player with a strong focus on data-driven product decisions.",
                 "Fresher-friendly: Actively hires product management graduates from top institutes like GLIM Chennai.",
@@ -695,7 +695,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.silveredge.in/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Startup focus: Smaller tech company, ideal entry point for product management roles.",
                 "Skills alignment: Prioritizes agile methodologies and user story creation.",
@@ -718,7 +718,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.tyreplex.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Niche growth: Automotive e-commerce startup scaling rapidly in Gurugram.",
                 "Data focus: Directly aligns with user metrics and data tracking skills.",
@@ -741,7 +741,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.contify.com/careers",
             "convertibility": 92,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Tech focus: Market intelligence platform utilizing GenAI and data analytics.",
                 "Product lifecycle: Direct exposure to end-to-end product development for enterprise SaaS.",
@@ -764,7 +764,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://varaha.earth/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Climate Tech: High-growth carbon removal startup looking for fast execution specialists.",
                 "No-code prototyping: Excellent fit for her ability to rapidly prototype using digital tools.",
@@ -787,7 +787,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://www.livekeeping.com/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "SaaS backed: Backed by IndiaMART, providing high growth and financial stability in Noida.",
                 "Fresher focused: Actively seeks entry-level product coordinators for SaaS integrations.",
@@ -810,7 +810,7 @@ def main():
             "location": "New Delhi",
             "apply_url": "https://www.kraftshala.com/careers",
             "convertibility": 96,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "EdTech/Marketing focus: Direct synergy with her PGDM Marketing & education sector interest.",
                 "Systems thinking: Valuation of cohort-based learning and AI-native workflows matches her Tagit experience.",
@@ -833,7 +833,7 @@ def main():
             "location": "New Delhi",
             "apply_url": "https://www.lendbox.in/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Fintech growth: Top P2P lending platform in Delhi, hiring junior PMs for UX enhancements.",
                 "Tagit Synergy: Directly matches her Tagit digital banking and benchmarking tenure.",
@@ -856,7 +856,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.kenresearch.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Consulting focus: Market intelligence firm requiring strategic research and analysis.",
                 "Excel analysis: Fits her Excel forecasting and marketing analytics certificates.",
@@ -879,7 +879,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.wishlink.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Creator economy: High-growth D2C/creator commerce startup, backing from top VCs.",
                 "Synergy: Combines product analytics with e-commerce growth strategies.",
@@ -902,7 +902,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://www.imarcgroup.com/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Market intelligence: Noida HQ, hires fresh MBA grads for sector research reports.",
                 "Skills alignment: Direct fit for her BBA & PGDM research/writing projects.",
@@ -925,7 +925,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://classplusapp.com/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Growth marketing: Top Noida edtech startup hiring analysts to optimize brand campaigns.",
                 "Marketing fit: Aligns with her PGDM Marketing and consumer psychology courses.",
@@ -948,7 +948,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://classplusapp.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "AI integration: EdTech startup implementing AI tools for student engagement and growth.",
                 "Product mapping: Aligns with her Tagit app audit and persona mapping experience.",
@@ -971,7 +971,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://bobble.ai/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "App growth: Top keyboard and AI data startup, focus on user acquisition.",
                 "B2B Outreach: Matches her Tagit value prop & client analysis background.",
@@ -994,7 +994,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://bluetokaicoffee.com/careers",
             "convertibility": 92,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "D2C success: Premium coffee brand with massive footprint expansion.",
                 "Consumer Focus: Fits her Pepperfry intern sales/HNI lead background.",
@@ -1017,7 +1017,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.chaayos.com/careers",
             "convertibility": 92,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Consumer retail: Fast-growing food-tech brand in Gurugram.",
                 "Growth marketing: Aligns with quick consumer activation and loyalty plans.",
@@ -1030,6 +1030,374 @@ def main():
                     "role": "Recruitment Associate",
                     "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Chaayos",
                     "email_format": "hr@chaayos.com",
+                }
+            ]
+        },
+        {
+            "id": "eazydiner_apm",
+            "title": "Associate Product Manager",
+            "company": "EazyDiner",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.eazydiner.com/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Growth stage: Leading restaurant booking app expanding features in Delhi NCR.",
+                "Fresher alignment: JD prioritizes candidates with SQL, user journey mapping, and wireframing skills.",
+                "Alumni fit: Multiple Great Lakes Chennai grads work in growth/PM teams here."
+            ],
+            "skills_required": ["Product Management", "SQL", "UX Prototyping", "User Research"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20EazyDiner%20Great%20Lakes",
+                    "email_format": "first.last@eazydiner.com",
+                }
+            ]
+        },
+        {
+            "id": "collegedekho_apm",
+            "title": "Associate Product Manager",
+            "company": "CollegeDekho",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.collegedekho.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "EdTech growth: Commutable Gurgaon office, scaling lead ingestion and matching products.",
+                "Marketing/Growth: Direct alignment with her BBA/PGDM marketing background for onboarding flow metrics.",
+                "High fit: Values candidates with diplomas in product management."
+            ],
+            "skills_required": ["Product Management", "Onboarding Funnels", "Data Analytics", "GTM Strategy"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Growth PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20CollegeDekho%20Great%20Lakes",
+                    "email_format": "first.last@collegedekho.com",
+                }
+            ]
+        },
+        {
+            "id": "cypherock_apm",
+            "title": "Product Associate",
+            "company": "Cypherock",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.cypherock.com/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Web3/SaaS startup: Smaller founder-led hardware/crypto wallet startup offering immense PM experience.",
+                "Tagit overlap: Matches her benchmarking (500+ apps) and platform auditing capabilities.",
+                "Direct response: Highly active co-founders hiring directly via LinkedIn and Wellfound."
+            ],
+            "skills_required": ["Product Management", "Competitive Benchmarking", "UX Auditing", "Platform Strategy"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Founder / Chief of Staff",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Founder%20Cypherock",
+                    "email_format": "info@cypherock.com",
+                }
+            ]
+        },
+        {
+            "id": "hack2skill_da",
+            "title": "Product Analyst (Data & Cohorts)",
+            "company": "Hack2skill",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://hack2skill.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Community/EdTech startup: Focuses on hackathons and cohort engagement platforms in Noida.",
+                "Marketing analytics: Matches her diploma credentials and Excel forecasting tools.",
+                "Hiring path: Actively posts and hires junior analysts from the Noida/Delhi region."
+            ],
+            "skills_required": ["Data Analysis", "Cohort Engagement", "Product Metrics", "Excel Forecasting"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Recruiter",
+                    "role": "HR Talent Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Hack2skill",
+                    "email_format": "hr@hack2skill.com",
+                }
+            ]
+        },
+        {
+            "id": "syook_apm",
+            "title": "Associate Product Manager",
+            "company": "Syook",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://www.syook.com/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Enterprise IoT: Noida software company specializing in asset tracking platforms.",
+                "B2B Outreach: Direct alignment with her Tagit enterprise analysis and CAC/GTM modeling projects.",
+                "SaaS structure: Commutable Noida office, agile junior product role."
+            ],
+            "skills_required": ["Product Management", "B2B SaaS", "GTM Strategy", "Logistics Coordination"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Co-founder / Product Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Lead%20Syook",
+                    "email_format": "careers@syook.com",
+                }
+            ]
+        },
+        {
+            "id": "cashify_pmm",
+            "title": "Product Marketing Associate",
+            "company": "Cashify",
+            "location": "New Delhi",
+            "apply_url": "https://www.cashify.in/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Re-commerce scale: Major D2C/re-commerce startup, HQ in Gurgaon/Delhi.",
+                "D2C fit: Combines e-commerce merchandising, brand positioning, and pricing campaigns.",
+                "Pepperfry synergy: Fits her prior Pepperfry flagship stores intern marketing background."
+            ],
+            "skills_required": ["Product Marketing", "D2C Strategy", "Brand Positioning", "Campaign Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Marketing",
+                    "role": "Brand / Growth Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Cashify%20Great%20Lakes",
+                    "email_format": "first.last@cashify.in",
+                }
+            ]
+        },
+        {
+            "id": "indiagold_growth",
+            "title": "Growth & Alliances Associate",
+            "company": "Indiagold",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.indiagold.co/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Fintech gold loan: High-growth fintech startup backed by top VCs.",
+                "B2B/B2C: Matches her sales intern experience (HNI leads, monthly sales targets).",
+                "Reference paths: Active hiring for fresher associates in Gurgaon office."
+            ],
+            "skills_required": ["Growth Hacking", "B2C Sales & Engagement", "Partnerships", "Lead Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Talent Acquisition Head",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20Indiagold",
+                    "email_format": "careers@indiagold.co",
+                }
+            ]
+        },
+        {
+            "id": "progcap_analyst",
+            "title": "Strategy & Operations Analyst",
+            "company": "Progcap",
+            "location": "New Delhi",
+            "apply_url": "https://www.progcap.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Fintech GTM: Enterprise credit platform for retailers, backed by Tiger Global.",
+                "Logistics fit: Perfectly fits her university Logistics Co-convenor background (managing 15 teams).",
+                "MBA target: Actively recruits fresh B-school graduates in Delhi."
+            ],
+            "skills_required": ["Strategy Analysis", "Operations Management", "Fintech Domain", "Stakeholder Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Operations Director",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Progcap",
+                    "email_format": "hr@progcap.com",
+                }
+            ]
+        },
+        {
+            "id": "planetspark_growth",
+            "title": "Business Growth Associate",
+            "company": "PlanetSpark",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.planetspark.in/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "EdTech speed: Fast-paced sales and brand growth environment, large hiring pool.",
+                "Consumer behaviour: Direct application of B2C sales and student user acquisition strategies.",
+                "Gurgaon base: Massive modern corporate center located in Sector 44."
+            ],
+            "skills_required": ["Growth Hacking", "B2C Sales & Engagement", "Consumer Behaviour", "Campaign Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Recruitment Executive",
+                    "role": "HR Executive",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Recruiter%20PlanetSpark",
+                    "email_format": "hr@planetspark.in",
+                }
+            ]
+        },
+        {
+            "id": "leverageedu_pmm",
+            "title": "Product Marketing Associate",
+            "company": "Leverage Edu",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://leverageedu.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Study abroad tech: EdTech startup expanding its digital and visa platforms in Noida.",
+                "SEO & Growth: Direct alignment with her SEO and digital marketing credentials.",
+                "Outreach: Founder-led environment with strong alumni presence."
+            ],
+            "skills_required": ["Product Marketing", "SEO & Digital Marketing", "GTM Strategy", "Consumer Psychology"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Marketing",
+                    "role": "Marketing Lead (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Leverage%20Edu%20Great%20Lakes",
+                    "email_format": "first.last@leverageedu.com",
+                }
+            ]
+        },
+        {
+            "id": "shiprocket_pa",
+            "title": "Product Analyst (E-commerce Operations)",
+            "company": "Shiprocket",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.shiprocket.in/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Logistics tech unicorn: Leading SaaS platform for D2C logistics management.",
+                "Logistics synergy: Matches her university Logistics Convenor background.",
+                "Data skills: Heavy focus on analytics dashboard mapping, SQL, and cohort tracking."
+            ],
+            "skills_required": ["Product Analytics", "Logistics Coordination", "SQL", "Dashboard Mapping"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Shiprocket%20Great%20Lakes",
+                    "email_format": "first.last@shiprocket.com",
+                }
+            ]
+        },
+        {
+            "id": "ofbusiness_strategy",
+            "title": "Strategy Associate",
+            "company": "OfBusiness",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.ofbusiness.com/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "B2B giant: Industrial B2B procurement and credit platform, HQ in Gurgaon.",
+                "Business GTM: Aligns with her corporate sales leads and internship operations management.",
+                "Hiring: Fast-growth strategy team hiring MBA freshers."
+            ],
+            "skills_required": ["Strategy Analysis", "B2B Sales & Engagement", "Operations Management", "Stakeholder Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Strategy",
+                    "role": "Strategy Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Strategy%20OfBusiness%20Great%20Lakes",
+                    "email_format": "first.last@ofbusiness.com",
+                }
+            ]
+        },
+        {
+            "id": "lenskart_apm",
+            "title": "Associate Product Manager (Store Tech)",
+            "company": "Lenskart",
+            "location": "Gurugram / Delhi NCR",
+            "apply_url": "https://www.lenskart.com/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Omnichannel scale: PM role for retail store dashboards and app experiences.",
+                "Pepperfry match: Aligns with her Pepperfry retail store internship.",
+                "Local hub: Headquarters in Gurgaon, strong team representation."
+            ],
+            "skills_required": ["Product Management", "UX Auditing", "Category Management", "Cross-functional Collaboration"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - PM",
+                    "role": "Product Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Lenskart%20Great%20Lakes",
+                    "email_format": "first.last@lenskart.in",
+                }
+            ]
+        },
+        {
+            "id": "honasa_brand",
+            "title": "Brand Executive",
+            "company": "Mamaearth",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://honasaconsumer.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "D2C FMCG: India's top beauty D2C group, recruiting Brand Executives in Gurgaon.",
+                "Marketing fit: Strong alignment with her BBA/PGDM marketing core.",
+                "GLIM Alumni: Multiple alumni work in brand team pipelines."
+            ],
+            "skills_required": ["Brand Strategy", "Campaign Management", "Consumer Psychology", "Market Research"],
+            "contacts": [
+                {
+                    "name_placeholder": "Great Lakes Alum - Brand PM",
+                    "role": "Brand Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Brand%20Manager%20Honasa%20Great%20Lakes",
+                    "email_format": "first.last@honasa.in",
+                }
+            ]
+        },
+        {
+            "id": "dukaan_growth",
+            "title": "Growth Hacker / Product Marketer",
+            "company": "Dukaan",
+            "location": "Noida / Gurugram",
+            "apply_url": "https://mydukaan.io/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "SaaS platform: Direct application of onboarding flows and conversion funnel optimizations.",
+                "Benchmarking: Direct fit for her platform auditing and user persona mapping experience.",
+                "Founder-led: Quick decisions, highly visible role for execution-driven graduates."
+            ],
+            "skills_required": ["Growth Hacking", "Product Marketing", "Onboarding Funnels", "UX Auditing"],
+            "contacts": [
+                {
+                    "name_placeholder": "Growth Lead",
+                    "role": "Marketing Head",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Dukaan",
+                    "email_format": "careers@mydukaan.io",
+                }
+            ]
+        },
+        {
+            "id": "sleephyowl_marketing",
+            "title": "Digital Marketing Executive",
+            "company": "Sleepy Owl Coffee",
+            "location": "New Delhi",
+            "apply_url": "https://sleepyowl.co/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "D2C retail: High-growth artisanal coffee brand, Delhi based.",
+                "Marketing execution: Aligns with her digital marketing and lead generation credentials.",
+                "Consumer insights: Direct application of PGDM consumer psychology analytics."
+            ],
+            "skills_required": ["Digital Marketing", "SEO & Digital Marketing", "Consumer Behaviour", "Campaign Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Brand Lead / HR Recruiter",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Sleepy%20Owl",
+                    "email_format": "hello@sleepyowl.co",
                 }
             ]
         }
