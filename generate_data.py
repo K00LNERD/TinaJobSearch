@@ -1040,7 +1040,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.eazydiner.com/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Growth stage: Leading restaurant booking app expanding features in Delhi NCR.",
                 "Fresher alignment: JD prioritizes candidates with SQL, user journey mapping, and wireframing skills.",
@@ -1063,7 +1063,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.collegedekho.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "EdTech growth: Commutable Gurgaon office, scaling lead ingestion and matching products.",
                 "Marketing/Growth: Direct alignment with her BBA/PGDM marketing background for onboarding flow metrics.",
@@ -1086,7 +1086,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.cypherock.com/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Web3/SaaS startup: Smaller founder-led hardware/crypto wallet startup offering immense PM experience.",
                 "Tagit overlap: Matches her benchmarking (500+ apps) and platform auditing capabilities.",
@@ -1109,7 +1109,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://hack2skill.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Community/EdTech startup: Focuses on hackathons and cohort engagement platforms in Noida.",
                 "Marketing analytics: Matches her diploma credentials and Excel forecasting tools.",
@@ -1132,7 +1132,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://www.syook.com/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Enterprise IoT: Noida software company specializing in asset tracking platforms.",
                 "B2B Outreach: Direct alignment with her Tagit enterprise analysis and CAC/GTM modeling projects.",
@@ -1155,7 +1155,7 @@ def main():
             "location": "New Delhi",
             "apply_url": "https://www.cashify.in/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Re-commerce scale: Major D2C/re-commerce startup, HQ in Gurgaon/Delhi.",
                 "D2C fit: Combines e-commerce merchandising, brand positioning, and pricing campaigns.",
@@ -1178,7 +1178,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.indiagold.co/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Fintech gold loan: High-growth fintech startup backed by top VCs.",
                 "B2B/B2C: Matches her sales intern experience (HNI leads, monthly sales targets).",
@@ -1201,7 +1201,7 @@ def main():
             "location": "New Delhi",
             "apply_url": "https://www.progcap.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Fintech GTM: Enterprise credit platform for retailers, backed by Tiger Global.",
                 "Logistics fit: Perfectly fits her university Logistics Co-convenor background (managing 15 teams).",
@@ -1224,7 +1224,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.planetspark.in/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "EdTech speed: Fast-paced sales and brand growth environment, large hiring pool.",
                 "Consumer behaviour: Direct application of B2C sales and student user acquisition strategies.",
@@ -1247,7 +1247,7 @@ def main():
             "location": "Noida, Uttar Pradesh",
             "apply_url": "https://leverageedu.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Study abroad tech: EdTech startup expanding its digital and visa platforms in Noida.",
                 "SEO & Growth: Direct alignment with her SEO and digital marketing credentials.",
@@ -1270,7 +1270,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.shiprocket.in/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Logistics tech unicorn: Leading SaaS platform for D2C logistics management.",
                 "Logistics synergy: Matches her university Logistics Convenor background.",
@@ -1293,7 +1293,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://www.ofbusiness.com/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "B2B giant: Industrial B2B procurement and credit platform, HQ in Gurgaon.",
                 "Business GTM: Aligns with her corporate sales leads and internship operations management.",
@@ -1316,7 +1316,7 @@ def main():
             "location": "Gurugram / Delhi NCR",
             "apply_url": "https://www.lenskart.com/careers",
             "convertibility": 95,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "Omnichannel scale: PM role for retail store dashboards and app experiences.",
                 "Pepperfry match: Aligns with her Pepperfry retail store internship.",
@@ -1339,7 +1339,7 @@ def main():
             "location": "Gurugram, Haryana",
             "apply_url": "https://honasaconsumer.com/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "D2C FMCG: India's top beauty D2C group, recruiting Brand Executives in Gurgaon.",
                 "Marketing fit: Strong alignment with her BBA/PGDM marketing core.",
@@ -1362,7 +1362,7 @@ def main():
             "location": "Noida / Gurugram",
             "apply_url": "https://mydukaan.io/careers",
             "convertibility": 93,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "SaaS platform: Direct application of onboarding flows and conversion funnel optimizations.",
                 "Benchmarking: Direct fit for her platform auditing and user persona mapping experience.",
@@ -1385,7 +1385,7 @@ def main():
             "location": "New Delhi",
             "apply_url": "https://sleepyowl.co/careers",
             "convertibility": 94,
-            "status": "active",
+            "status": "applied",
             "convertibility_reasons": [
                 "D2C retail: High-growth artisanal coffee brand, Delhi based.",
                 "Marketing execution: Aligns with her digital marketing and lead generation credentials.",
@@ -1398,6 +1398,443 @@ def main():
                     "role": "Brand Lead / HR Recruiter",
                     "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Sleepy%20Owl",
                     "email_format": "hello@sleepyowl.co",
+                }
+            ]
+        },
+        {
+            "id": "power2sme_ops",
+            "title": "Management Trainee (Operations & Procurement)",
+            "company": "Power2SME Pvt Ltd",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.power2sme.com/careers",
+            "convertibility": 92,
+            "status": "active",
+            "convertibility_reasons": [
+                "B2B procurement platform aligns with her B2B marketing project background.",
+                "Excellent match for her logistics co-convenor and operations planning skills.",
+                "NCR based: Headquartered in Udyog Vihar, Gurugram, offering direct face-to-face team opportunities."
+            ],
+            "skills_required": ["Operations Management", "B2B Marketing", "Procurement Strategy", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Operations & Recruitment Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Power2SME%20Operations%20Recruitment",
+                    "email_format": "careers@power2sme.com",
+                }
+            ]
+        },
+        {
+            "id": "onemetric_growth",
+            "title": "Growth Marketing Analyst",
+            "company": "Onemetric",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://growtomation.foundit.in/",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "RevOps & B2B growth agency. Directly leverages her high-volume LinkedIn outreach (Sales Navigator) experience.",
+                "Matches her remote SEO Externship using 5 AI tools to generate high-performing content.",
+                "Local hiring: Growing team based in Gurugram, values marketing analytics."
+            ],
+            "skills_required": ["Growth Hacking", "B2B LinkedIn Outreach", "SEO & Digital Marketing", "Marketing Analytics"],
+            "contacts": [
+                {
+                    "name_placeholder": "Growth Recruiter",
+                    "role": "Talent Acquisition Head",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Onemetric%20Recruiter",
+                    "email_format": "careers@onemetric.co",
+                }
+            ]
+        },
+        {
+            "id": "tentimes_floor",
+            "title": "Business Development Executive (Virtual Events)",
+            "company": "Floor (by 10Times)",
+            "location": "Noida, Uttar Pradesh",
+            "apply_url": "https://10times.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "10Times Floor is a global virtual event and networking community platform based in Noida.",
+                "Direct alignment with her Co-Convenor Logistics role (led 15 teams and managed 14 events).",
+                "Placement Coordinator background matches B2B engagement and corporate networking."
+            ],
+            "skills_required": ["Logistics Coordination", "Event Management", "B2B Sales & Engagement", "Stakeholder Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Manager",
+                    "role": "Recruitment Executive",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=10Times%20Floor%20Recruiter",
+                    "email_format": "hr@10times.com",
+                }
+            ]
+        },
+        {
+            "id": "akasaair_training",
+            "title": "Operations & Training Coordinator",
+            "company": "Akasa Air Learning Academy",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.akasaair.com/careers",
+            "convertibility": 91,
+            "status": "active",
+            "convertibility_reasons": [
+                "Corporate operations track at Akasa Air Learning Academy in Gurgaon.",
+                "Matches her logistics management, scheduling, and placement operations background.",
+                "Fast-growing aviation brand valuing process-driven post-graduates."
+            ],
+            "skills_required": ["Operations Management", "Logistics Coordination", "Scheduling", "Stakeholder Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "Training Recruiter",
+                    "role": "Akasa Air Talent Acquisition",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Akasa%20Air%20Recruiter%20Gurgaon",
+                    "email_format": "careers@akasaair.com",
+                }
+            ]
+        },
+        {
+            "id": "tecnova_consultant",
+            "title": "Research Analyst - Market Entry & Growth Strategy",
+            "company": "Tecnova India",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.tecnovaglobal.com/careers",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Premium consulting firm specializing in India entry and expansion strategies.",
+                "Matches her consulting club membership, research dissertation, and competitive benchmarking.",
+                "Headquartered in Gurgaon with high preference for MBA grads with marketing & consulting focus."
+            ],
+            "skills_required": ["Market Research", "Consulting", "Go-to-market Strategy", "Competitive Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Hiring Coordinator",
+                    "role": "Consulting Recruitment Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Tecnova%20India%20Recruiter",
+                    "email_format": "jobs@tecnovaglobal.com",
+                }
+            ]
+        },
+        {
+            "id": "wizfair_ops",
+            "title": "Travel Operations Associate",
+            "company": "Wizfair Travels",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://wizfairtravels.com/",
+            "convertibility": 90,
+            "status": "active",
+            "convertibility_reasons": [
+                "Travel services startup in Gurgaon hiring operations associates.",
+                "Synergizes with her customer support, client relations, and Pepperfry customer interaction (managed 200+ clients).",
+                "Logistics coordination skills apply directly to travel bookings and vendor management."
+            ],
+            "skills_required": ["B2C Sales & Engagement", "Customer Support", "Operations Management", "Logistics Coordination"],
+            "contacts": [
+                {
+                    "name_placeholder": "Operations Lead",
+                    "role": "Operations Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Wizfair%20Travels%20Operations",
+                    "email_format": "hr@wizfairtravels.com",
+                }
+            ]
+        },
+        {
+            "id": "lcx_analyst",
+            "title": "Crypto Research Analyst",
+            "company": "LCX Tech",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.lcx.com/careers",
+            "convertibility": 92,
+            "status": "active",
+            "convertibility_reasons": [
+                "Crypto exchange and tokenization platform with major operations in Gurgaon.",
+                "Directly leverages her benchmarking of 500+ global platforms and competitive intelligence.",
+                "Ideal for her analytical skills and professional product management diploma."
+            ],
+            "skills_required": ["Competitive Benchmarking", "Market Research", "Data Analysis", "Fintech Domain"],
+            "contacts": [
+                {
+                    "name_placeholder": "Research Lead",
+                    "role": "Crypto Research Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=LCX%20Research%20Gurgaon",
+                    "email_format": "careers@lcx.com",
+                }
+            ]
+        },
+        {
+            "id": "jagsonpal_brand",
+            "title": "Brand Executive",
+            "company": "Jagsonpal Pharmaceuticals",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.jagsonpal.com/careers",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Established pharma company hiring brand executives in Gurgaon.",
+                "Matches her PGDM (Marketing), Colgate Transcend campus round qualification, and e-commerce certifications.",
+                "Focus on market analysis, brand execution, and consumer insights."
+            ],
+            "skills_required": ["Brand Strategy", "Market Research", "Digital Marketing", "Consumer Psychology"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Manager",
+                    "role": "Brand Marketing Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Jagsonpal%20Brand%20Manager",
+                    "email_format": "careers@jagsonpal.com",
+                }
+            ]
+        },
+        {
+            "id": "richi_scm",
+            "title": "Supply Chain & Procurement Analyst",
+            "company": "Richi Circuitronix",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://circuitronix.in/",
+            "convertibility": 89,
+            "status": "active",
+            "convertibility_reasons": [
+                "Electronics manufacturing firm hiring SCM analysts in Gurgaon.",
+                "Direct match for her logistics co-convenor and operations planning background.",
+                "Focuses on inventory data analytics and supplier coordination."
+            ],
+            "skills_required": ["Logistics Coordination", "Operations Management", "Excel Analytics", "Stakeholder Management"],
+            "contacts": [
+                {
+                    "name_placeholder": "SCM Manager",
+                    "role": "Supply Chain Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Richi%20Circuitronix%20SCM",
+                    "email_format": "careers@circuitronix.com",
+                }
+            ]
+        },
+        {
+            "id": "shadowfax_ops",
+            "title": "Operations Analyst (Last Mile)",
+            "company": "Shadowfax Technologies",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.shadowfax.in/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Logistics tech unicorn with major operations hubs in NCR.",
+                "Direct fit for her logistics background and operations management.",
+                "Analytical role focused on fleet metrics, driver onboarding, and quick commerce delivery speeds."
+            ],
+            "skills_required": ["Operations Management", "Logistics Coordination", "Data Analysis", "Cross-functional Collaboration"],
+            "contacts": [
+                {
+                    "name_placeholder": "Operations Lead",
+                    "role": "Operations Manager (NCR)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Shadowfax%20Operations%20NCR",
+                    "email_format": "careers@shadowfax.in",
+                }
+            ]
+        },
+        {
+            "id": "pcm_travel_ops",
+            "title": "Travel Operations Coordinator",
+            "company": "PCM Pvt Ltd (PCM Worldwide Flights)",
+            "location": "New Delhi",
+            "apply_url": "https://pcmtravels.com/",
+            "convertibility": 90,
+            "status": "active",
+            "convertibility_reasons": [
+                "Travel and tour operations company based in New Delhi.",
+                "Applies her customer relationship (resolved 50+ escalations at Pepperfry) and logistics coordination skills.",
+                "Focus on coordination, booking management, and customer satisfaction."
+            ],
+            "skills_required": ["Operations Management", "Customer Support", "Logistics Coordination", "Scheduling"],
+            "contacts": [
+                {
+                    "name_placeholder": "Operations Manager",
+                    "role": "Travel Operations Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=PCM%20Travels%20Operations",
+                    "email_format": "careers@pcmtravels.com",
+                }
+            ]
+        },
+        {
+            "id": "novus_insights_research",
+            "title": "Research Associate (Market Research)",
+            "company": "Novus Insights",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.novusinsights.com/careers.php",
+            "convertibility": 96,
+            "status": "active",
+            "convertibility_reasons": [
+                "Premium research and consulting agency in Gurgaon.",
+                "Directly leverages her market research training and PGDM marketing analytics credentials.",
+                "Strong match for her dissertation project on trust and digital consumer behaviour."
+            ],
+            "skills_required": ["Market Research", "Marketing Analytics", "Excel Forecasting", "Report Writing"],
+            "contacts": [
+                {
+                    "name_placeholder": "Research Director",
+                    "role": "Research Lead (GLIM Alumni / HR)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Novus%20Insights%20Research",
+                    "email_format": "careers@novusinsights.com",
+                }
+            ]
+        },
+        {
+            "id": "unimrkt_research_analyst",
+            "title": "Market Research Analyst",
+            "company": "Unimrkt Research",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.unimrkt.com/work-with-us.php",
+            "convertibility": 96,
+            "status": "active",
+            "convertibility_reasons": [
+                "Global B2B market research firm headquartered in Udyog Vihar, Gurgaon.",
+                "Directly matches her B2B outreach background (YE Stack Venture Studios client conversions).",
+                "Excellent alignment with Google Digital Marketing & E-commerce credentials."
+            ],
+            "skills_required": ["Market Research", "B2B Outreach", "Competitive Analysis", "Secondary Research"],
+            "contacts": [
+                {
+                    "name_placeholder": "Research Manager",
+                    "role": "B2B Research Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Unimrkt%20Research%20Manager",
+                    "email_format": "hr@unimrkt.com",
+                }
+            ]
+        },
+        {
+            "id": "unimrkt_healthcare_assoc",
+            "title": "Healthcare Research Associate",
+            "company": "Unimrkt Healthcare",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.unimrkthealth.com/careers.php",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "Specialized healthcare market research firm, hiring junior associates in Gurgaon.",
+                "Leverages her consumer insights, journey mapping, and secondary research capabilities.",
+                "Matches her professional customer relationship management diploma."
+            ],
+            "skills_required": ["Market Research", "Customer Journey Mapping", "Secondary Research", "Data Collection"],
+            "contacts": [
+                {
+                    "name_placeholder": "Healthcare Research Lead",
+                    "role": "Healthcare Insights Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Unimrkt%20Healthcare%20Insights",
+                    "email_format": "hr@unimrkthealth.com",
+                }
+            ]
+        },
+        {
+            "id": "mfcw_product",
+            "title": "E-commerce Product Analyst",
+            "company": "Mahindra First Choice Wheels",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.mahindrafirstchoice.com/careers",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "Used vehicle e-commerce leader, hiring analysts for store tech & online platform enhancements.",
+                "Strong synergy with her Tagit experience in app audits, customer journey maps, and GTM modeling.",
+                "Headquartered in Gurgaon, providing high visibility in product operations."
+            ],
+            "skills_required": ["Product Management", "UX Auditing", "Competitive Benchmarking", "Data Analysis"],
+            "contacts": [
+                {
+                    "name_placeholder": "Product Lead",
+                    "role": "Digital Product Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Product%20Manager%20Mahindra%20First%20Choice",
+                    "email_format": "careers.mfcw@mahindra.com",
+                }
+            ]
+        },
+        {
+            "id": "carandbike_growth",
+            "title": "Digital Marketing Executive",
+            "company": "carandbike",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.carandbike.com/",
+            "convertibility": 93,
+            "status": "active",
+            "convertibility_reasons": [
+                "Automotive portal under MFCW group, expanding digital acquisition channels.",
+                "Direct match for her remote SEO Externship (AI blogs) and Google Digital Marketing certifications.",
+                "Fits her retail client interaction and brand promotion background (Pepperfry)."
+            ],
+            "skills_required": ["SEO & Digital Marketing", "Brand Strategy", "Campaign Management", "Consumer Behaviour"],
+            "contacts": [
+                {
+                    "name_placeholder": "Marketing Head",
+                    "role": "Digital Marketing Manager",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Marketing%20Manager%20carandbike",
+                    "email_format": "marketing@carandbike.com",
+                }
+            ]
+        },
+        {
+            "id": "zoom_media_ops",
+            "title": "Media Operations Coordinator",
+            "company": "Zoom Communications",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://zoomcom.tv/",
+            "convertibility": 90,
+            "status": "active",
+            "convertibility_reasons": [
+                "Outside broadcast & media production firm based in Gurgaon.",
+                "Matches her logistics management background (led logistics for major university festivals).",
+                "Focuses on scheduling, crew coordination, and vendor relations."
+            ],
+            "skills_required": ["Operations Management", "Logistics Coordination", "Stakeholder Management", "Scheduling"],
+            "contacts": [
+                {
+                    "name_placeholder": "Operations Coordinator",
+                    "role": "Media Operations Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Zoom%20Communications%20Operations",
+                    "email_format": "hr@zoomcom.tv",
+                }
+            ]
+        },
+        {
+            "id": "paxcom_business_analyst",
+            "title": "E-commerce Business Analyst",
+            "company": "Paxcom (A Paymentus Company)",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://paxcom.ai/",
+            "convertibility": 94,
+            "status": "active",
+            "convertibility_reasons": [
+                "E-commerce analytics & software solutions provider, part of Paymentus group in Gurgaon.",
+                "Excellent match with her Tagit CAC analytics and 10+ GTM models reporting.",
+                "Aligns with her Excel forecasting & Marketing Analytics certifications."
+            ],
+            "skills_required": ["Data Analysis", "Excel Forecasting", "Competitive Analysis", "GTM Strategy"],
+            "contacts": [
+                {
+                    "name_placeholder": "Business Analysis Lead",
+                    "role": "E-commerce Manager (GLIM Alumni)",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Paxcom%20E-commerce%20Manager",
+                    "email_format": "hr@paxcom.net",
+                }
+            ]
+        },
+        {
+            "id": "hike_edu_bde",
+            "title": "Business Development Executive",
+            "company": "Hike Education",
+            "location": "Gurugram, Haryana",
+            "apply_url": "https://www.hikeedu.in/",
+            "convertibility": 95,
+            "status": "active",
+            "convertibility_reasons": [
+                "EdTech counselor and MBA partner with corporate offices in Noida and Udyog Vihar, Gurugram.",
+                "Directly leverages her placement committee member B2B outreach & customer sales background.",
+                "Strong match for her BBA/PGDM marketing credentials and consumer behaviour studies."
+            ],
+            "skills_required": ["B2C Sales & Engagement", "B2B LinkedIn Outreach", "Lead Management", "Consumer Psychology"],
+            "contacts": [
+                {
+                    "name_placeholder": "Admissions Lead",
+                    "role": "Recruitment & Placement Lead",
+                    "search_url": "https://www.linkedin.com/search/results/people/?keywords=Hike%20Education%20Recruiter",
+                    "email_format": "careers@hikeedu.in",
                 }
             ]
         }
